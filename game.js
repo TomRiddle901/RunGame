@@ -37,4 +37,10 @@ function drawTrack(){
 
         rect(width / 2, startY + i * laneHeight, width - 100, laneHeight - 10);
     }
+
+    // Disegno della linea di partenza
+    stroke(255);
+    strokeWeight(3);
+
+    line(70, 40, 70, 400);
 }
