@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto titolo e sottotitolo alla pagina, creato DIV per contenere il gioco e collegato il file script.js" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Cambiato nome del file da script.js a game.js (più idoneo)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +43,14 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/tommaso/Documenti/Scuola/TPSIT/Compiti Vacanze Estate/RunGame",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "/home/tommaso/.config/JetBrains/WebStorm2026.2/node/versions/26.8.1/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -96,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787821302172</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cambiato nome del file da script.js a game.js (più idoneo)">
+      <option name="closed" value="true" />
+      <created>1787821356573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787821356573</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +118,7 @@
     <MESSAGE value="Nuovo progetto per compiti vacanze estive" />
     <MESSAGE value="Creato header HTML, aggiunto titolo, CDN per la libreria p5.js e collegamento al file CSS" />
     <MESSAGE value="Aggiunto titolo e sottotitolo alla pagina, creato DIV per contenere il gioco e collegato il file script.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto titolo e sottotitolo alla pagina, creato DIV per contenere il gioco e collegato il file script.js" />
+    <MESSAGE value="Cambiato nome del file da script.js a game.js (più idoneo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiato nome del file da script.js a game.js (più idoneo)" />
   </component>
 </project>
