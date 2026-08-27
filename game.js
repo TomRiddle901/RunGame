@@ -59,3 +59,19 @@ function drawTrack(){
     // Rimozione bordo dei quadrati
     noStroke();
 }
+
+function drawRunners(){
+    for (let i = 0; i < runners.length; i++){
+        // Colore del giocatore
+        fill(runners.color);
+
+        // Forma del giocatore (per ora ellisse)
+        ellipse(runners.x, runners.y, 30, 30);
+
+        // Etichetta con il numero del giocatore
+        fill(255);
+        textSize(12);
+        textAlign(CENTER, CENTER);
+        text(runners.id, runners.x, runners.y);
+    }
+}
