@@ -30,6 +30,9 @@ function draw(){
 
     // Disegna la pista
     drawTrack();
+
+    // Disegna i giocatori
+    drawRunners();
 }
 
 // Funzione per disegnare la pista
