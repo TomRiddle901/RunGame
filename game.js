@@ -42,5 +42,8 @@ function drawTrack(){
     stroke(255);
     strokeWeight(3);
 
-    line(70, 40, 70, 400);
+    line(70, 40, 70, 390);
+
+    // Disegno della linea di traguardo
+    line(width - 70, 40, width - 70, 390);
 }
