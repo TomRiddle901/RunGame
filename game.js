@@ -79,3 +79,33 @@ function drawRunners(){
         text(runners[i].id, runners[i].x, runners[i].y);
     }
 }
+
+// Disegno della legenda degli argomenti
+function drawLegend(){
+    // Formattazione del testo
+    textSize(12);
+    textAlign(LEFT, CENTER);
+    let legendX = 60;
+    let legendY = 400;
+
+    // Titolo della legenza
+    fill(255);
+    text("Legenda degli argomenti di TPSIT: ", legendX, legendY - 20);
+
+    // Ciclo per mostrare gli argomenti di TPSIT
+    for (let i = 0; i < runners.length; i++){
+        let player = runners[i];
+        let posX = legendX + (i * 20);
+
+        // Quadratino del colore del giocatore
+        fill(player.color);
+        rect(xPos, legendY, 12, 12);
+
+        // Nome dell'argomento di TPSIT
+        fill(255);
+        text(player.topic, xPos + 10, legendY);
+    }
+
+    // Ripristino dell'allineamento centrale per tutti i testi (esclusa legenda)
+    textAlign(CENTER, CENTER);
+}

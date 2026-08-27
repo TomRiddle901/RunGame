@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Spostati i giocatori nelle rispettive piste" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto commento per riconoscere l'utilizzo della funzione">
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787825581309</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787825644238</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1787825644238</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Aggiunto commento per riconoscere l'utilizzo della funzione">
+      <option name="closed" value="true" />
+      <created>1787825710921</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1787825710921</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +290,6 @@
     <MESSAGE value="Aggiunta ultima modifica al CHANGELOG.md" />
     <MESSAGE value="Impostate funzioni draw, e drawTrack()" />
     <MESSAGE value="Creata funzione drawTrack() che disegna le corsie della pista" />
-    <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
     <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
     <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
@@ -284,6 +301,8 @@
     <MESSAGE value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
     <MESSAGE value="Risolto l'errore: mancava l'indice!" />
     <MESSAGE value="Spostati i giocatori nelle rispettive piste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spostati i giocatori nelle rispettive piste" />
+    <MESSAGE value="Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Aggiunto commento per riconoscere l'utilizzo della funzione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto commento per riconoscere l'utilizzo della funzione" />
   </component>
 </project>
