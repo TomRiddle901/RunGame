@@ -119,3 +119,18 @@ function drawLegend(){
     // Ripristino dell'allineamento centrale per tutti i testi (esclusa legenda)
     textAlign(CENTER, CENTER);
 }
+
+// Funzione per il movimento dei giocatori ad una velocità random
+function updateRunners(){
+    for (let i = 0; i < runners.length; i++){
+        // Avanzamento casuale di ogni giocatore
+        runners[i].x += random(1, 4); // random() è presente all'interno di p5.js
+
+        // Controllo del vincitore
+        if (runners[i].x > finishLineX && gameState !== 'FINISH'){
+            gameState = 'FINISH';
+            winner = runners[i];
+            console.log("L'argomento che ha vinto è: " + winner.topic);
+        }
+    }
+}
