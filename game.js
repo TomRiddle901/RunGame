@@ -88,8 +88,8 @@ function drawLegend(){
     // Formattazione del testo
     textSize(12);
     textAlign(LEFT, CENTER);
-    let legendX = 60;
-    let legendY = 400;
+    let legendX = 50;
+    let legendY = 440;
 
     // Titolo della legenza
     fill(255);
