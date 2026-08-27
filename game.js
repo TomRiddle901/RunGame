@@ -5,10 +5,10 @@ let canvasHeight = 500;
 // Giocatori
 let startLineX = 70; // Posizione di partenza
 let runners = [ // Array di giocatori
-    {id: 1, color: [230, 57, 70], topic: "CPU Scheduler", x: startLineX, y: 80},
-    {id: 2, color: [42, 157, 143], topic: "Memory Manager", x: startLineX, y: 80},
-    {id: 3, color: [233, 196, 106], topic: "File System", x: startLineX, y:80},
-    {id: 4, color: [244, 162, 97], topic: "Gestore delle periferiche", x: startLineX, y:80}
+    {id: 1, color: "#E63946", topic: "CPU Scheduler", x: startLineX, y: 80},
+    {id: 2, color: "#2A9D8F", topic: "Memory Manager", x: startLineX, y: 80},
+    {id: 3, color: "#E9C46A", topic: "File System", x: startLineX, y:80},
+    {id: 4, color: "#DE61F4", topic: "Gestore delle periferiche", x: startLineX, y:80}
 ];
 
 // Funzione di setup

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificato il CHANGELOG.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Implementata la funzione per disegnare i giocatori" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +207,31 @@
       <option name="project" value="LOCAL" />
       <updated>1787824131330</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia">
+      <option name="closed" value="true" />
+      <created>1787824707813</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1787824707813</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Creata la funzione per disegnare i giocatori">
+      <option name="closed" value="true" />
+      <created>1787824903467</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1787824903467</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Implementata la funzione per disegnare i giocatori">
+      <option name="closed" value="true" />
+      <created>1787824949053</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1787824949053</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +254,9 @@
     <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
     <MESSAGE value="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati" />
     <MESSAGE value="Modificato il CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificato il CHANGELOG.md" />
+    <MESSAGE value="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia" />
+    <MESSAGE value="Creata la funzione per disegnare i giocatori" />
+    <MESSAGE value="Implementata la funzione per disegnare i giocatori" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementata la funzione per disegnare i giocatori" />
   </component>
 </project>
