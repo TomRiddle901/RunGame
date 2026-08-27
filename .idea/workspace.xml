@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Cambiato nome del file da script.js a game.js (più idoneo)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creato il file CHANGELOG.md">
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787821356573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creato il file CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787822154069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787822154069</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +127,7 @@
     <MESSAGE value="Creato header HTML, aggiunto titolo, CDN per la libreria p5.js e collegamento al file CSS" />
     <MESSAGE value="Aggiunto titolo e sottotitolo alla pagina, creato DIV per contenere il gioco e collegato il file script.js" />
     <MESSAGE value="Cambiato nome del file da script.js a game.js (più idoneo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiato nome del file da script.js a game.js (più idoneo)" />
+    <MESSAGE value="Creato il file CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato il file CHANGELOG.md" />
   </component>
 </project>

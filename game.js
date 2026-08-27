@@ -1,0 +1,16 @@
+// Impostazioni dimensione canvas
+let canvasWidth = 900;
+let canvasHeight = 500;
+
+// Funzione di setup
+function setup(){
+    // Creazione del canvas
+    let canvas = createCanvas(canvasWidth, canvasHeight);
+
+    // Aggiunta del canvas all'interno dell'HTML
+    document.getElementById('game-container').add(canvas);
+
+    // Imposta la modalità di disegno al centro del canvas
+    rectMode(CENTER);
+    textAlign(CENTER, CENTER);
+}
