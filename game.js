@@ -40,6 +40,19 @@ function draw(){
 
     // Disegna la legenda
     drawLegend();
+
+    // Gestione dello stato del gioco
+    if (gameState === 'START'){
+        fill(255);
+        textSize(16);
+        text("Premi SPAZIO per iniziare la gara", width / 2, 20);
+    }else if (gameState === 'RACING'){
+        updateRunners();
+    }else if (gameState === 'FINISH'){
+        fill(255, 215, 0);
+        textSize(18);
+        text("Ha vinto il concorrente " + winner.id + ", " + winner.topic, width / 2, 20);
+    }
 }
 
 // Funzione per disegnare la pista

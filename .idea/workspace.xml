@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata la funzione per far muovere i personaggi ad una velocità random">
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per avviare il gioco quando viene premuto un tasto">
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,16 +353,37 @@
       <option name="project" value="LOCAL" />
       <updated>1787829830749</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Rimosse impostazioni area di gioco perché calcolo fine corsa aggiunto direttamente nella condizione">
+      <option name="closed" value="true" />
+      <created>1787830031259</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1787830031259</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Modificato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787830059037</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1787830059037</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Creata funzione per avviare il gioco quando viene premuto un tasto">
+      <option name="closed" value="true" />
+      <created>1787830162124</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1787830162124</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Metodo sbagliato per inserire il canvas nell'HTML" />
-    <MESSAGE value="Aggiunta ultima modifica al CHANGELOG.md" />
-    <MESSAGE value="Impostate funzioni draw, e drawTrack()" />
     <MESSAGE value="Creata funzione drawTrack() che disegna le corsie della pista" />
     <MESSAGE value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
     <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
@@ -385,6 +406,9 @@
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco" />
     <MESSAGE value="Creata la funzione per far muovere i personaggi ad una velocità random" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata la funzione per far muovere i personaggi ad una velocità random" />
+    <MESSAGE value="Rimosse impostazioni area di gioco perché calcolo fine corsa aggiunto direttamente nella condizione" />
+    <MESSAGE value="Modificato CHANGELOG.md" />
+    <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
   </component>
 </project>
