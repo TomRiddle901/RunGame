@@ -8,8 +8,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Impostazioni dimensione canvas
-- Funzioni base `p5.js`
 - Movimento dei concorrenti
 - Gestione della velocità
 - Rilevamento del vincitore

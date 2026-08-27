@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Ho sbagliato a scrivere il nome della variabile" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificato il CHANGELOG.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,15 +305,37 @@
       <option name="project" value="LOCAL" />
       <updated>1787826202533</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Modificata posizione del testo della legenda e della posizione degli elemente">
+      <option name="closed" value="true" />
+      <created>1787826324926</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826324926</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Modificata posizione del testo della legenda e della posizione degli elementi">
+      <option name="closed" value="true" />
+      <created>1787826344030</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826344030</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Modificato il CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787826401030</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826401030</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto titolo e sottotitolo alla pagina, creato DIV per contenere il gioco e collegato il file script.js" />
-    <MESSAGE value="Cambiato nome del file da script.js a game.js (più idoneo)" />
     <MESSAGE value="Creato il file CHANGELOG.md" />
     <MESSAGE value="Aggiunte impostazioni per dimensione del canvas e funzione di setup per impostare il canvas" />
     <MESSAGE value="Metodo sbagliato per inserire il canvas nell'HTML" />
@@ -322,7 +346,6 @@
     <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
     <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
     <MESSAGE value="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati" />
-    <MESSAGE value="Modificato il CHANGELOG.md" />
     <MESSAGE value="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia" />
     <MESSAGE value="Creata la funzione per disegnare i giocatori" />
     <MESSAGE value="Implementata la funzione per disegnare i giocatori" />
@@ -335,6 +358,9 @@
     <MESSAGE value="Implementata la funzione per disegnare le Legenda" />
     <MESSAGE value="Spostata posizione della legenda" />
     <MESSAGE value="Ho sbagliato a scrivere il nome della variabile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ho sbagliato a scrivere il nome della variabile" />
+    <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elemente" />
+    <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
+    <MESSAGE value="Modificato il CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificato il CHANGELOG.md" />
   </component>
 </project>
