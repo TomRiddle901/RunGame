@@ -30,4 +30,5 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Realizzata una pista composta da 4 corsie
 - Inserite linee di partenza e di arrivo
 - Inseriti 4 concorrenti di colore diverso
-- Agginti i nomi P1, P2, P3, P4 ai concorrenti
+- Aggiunti i nomi P1, P2, P3, P4 ai concorrenti
+- Inserita la legenda con i determinati colori collegati ai giocatori e agli argomenti
