@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Impostate funzioni draw, e drawTrack()">
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto disegno della linea di pertanza nella funzione drawTrack()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "/home/tommaso/.config/JetBrains/WebStorm2026.2/node/versions/26.8.1/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -148,7 +148,31 @@
       <option name="project" value="LOCAL" />
       <updated>1787822825407</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creata funzione drawTrack() che disegna le corsie della pista">
+      <option name="closed" value="true" />
+      <created>1787823167890</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1787823167890</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787823210074</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1787823210074</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Aggiunto disegno della linea di pertanza nella funzione drawTrack()">
+      <option name="closed" value="true" />
+      <created>1787823349355</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1787823349355</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +188,9 @@
     <MESSAGE value="Metodo sbagliato per inserire il canvas nell'HTML" />
     <MESSAGE value="Aggiunta ultima modifica al CHANGELOG.md" />
     <MESSAGE value="Impostate funzioni draw, e drawTrack()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impostate funzioni draw, e drawTrack()" />
+    <MESSAGE value="Creata funzione drawTrack() che disegna le corsie della pista" />
+    <MESSAGE value="Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
   </component>
 </project>
