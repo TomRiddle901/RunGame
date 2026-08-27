@@ -2,9 +2,6 @@
 let canvasWidth = 900;
 let canvasHeight = 500;
 
-// Impostazioni area di gioco
-let finishLineX = canvasWidth - 70;
-
 // Impostazioni stato del gioco
 let gameState = 'START'; // Stato del gioco: 'START', 'RACING', FINISH'
 let winner = null;
@@ -127,7 +124,7 @@ function updateRunners(){
         runners[i].x += random(1, 4); // random() è presente all'interno di p5.js
 
         // Controllo del vincitore
-        if (runners[i].x > finishLineX && gameState !== 'FINISH'){
+        if (runners[i].x > (width - 70) && gameState !== 'FINISH'){
             gameState = 'FINISH';
             winner = runners[i];
             console.log("L'argomento che ha vinto è: " + winner.topic);

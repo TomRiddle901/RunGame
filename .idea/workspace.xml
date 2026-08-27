@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato CHANGELOG.md">
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata la funzione per far muovere i personaggi ad una velocità random">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,15 +337,29 @@
       <option name="project" value="LOCAL" />
       <updated>1787829407881</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco">
+      <option name="closed" value="true" />
+      <created>1787829572550</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1787829572550</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Creata la funzione per far muovere i personaggi ad una velocità random">
+      <option name="closed" value="true" />
+      <created>1787829830749</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1787829830749</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creato il file CHANGELOG.md" />
-    <MESSAGE value="Aggiunte impostazioni per dimensione del canvas e funzione di setup per impostare il canvas" />
     <MESSAGE value="Metodo sbagliato per inserire il canvas nell'HTML" />
     <MESSAGE value="Aggiunta ultima modifica al CHANGELOG.md" />
     <MESSAGE value="Impostate funzioni draw, e drawTrack()" />
@@ -369,6 +383,8 @@
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
     <MESSAGE value="Modificato il CHANGELOG.md" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco" />
+    <MESSAGE value="Creata la funzione per far muovere i personaggi ad una velocità random" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata la funzione per far muovere i personaggi ad una velocità random" />
   </component>
 </project>
