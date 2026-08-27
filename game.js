@@ -33,6 +33,9 @@ function draw(){
 
     // Disegna i giocatori
     drawRunners();
+
+    // Disegna la legenda
+    drawLegend();
 }
 
 // Funzione per disegnare la pista
