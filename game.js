@@ -8,7 +8,7 @@ function setup(){
     let canvas = createCanvas(canvasWidth, canvasHeight);
 
     // Aggiunta del canvas all'interno dell'HTML
-    document.getElementById('game-container').add(canvas);
+    document.getElementById('game-container').append(canvas);
 
     // Imposta la modalità di disegno al centro del canvas
     rectMode(CENTER);
