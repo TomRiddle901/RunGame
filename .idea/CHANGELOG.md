@@ -26,3 +26,4 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Creata la struttura iniziale del progetto
 - Creato file index.html
 - Integrata la libreria `p5.js`
+- Creato il canvas di gioco
