@@ -63,6 +63,7 @@ function drawTrack(){
     noStroke();
 }
 
+// Funzione per disegnare i giocatori
 function drawRunners(){
     for (let i = 0; i < runners.length; i++){
         // Colore del giocatore
