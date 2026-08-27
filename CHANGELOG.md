@@ -8,9 +8,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Movimento dei concorrenti
-- Gestione della velocità
-- Rilevamento del vincitore
 - Associazione del colore del concorrente ad un argomento di TPSIT
 - Sistema di estrazione delle domande
 - Gestione delle risposte
@@ -30,3 +27,8 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Inseriti 4 concorrenti di colore diverso
 - Aggiunti i nomi P1, P2, P3, P4 ai concorrenti
 - Inserita la legenda con i determinati colori collegati ai giocatori e agli argomenti
+
+## [0.2.0] - 27/08/2026
+### Added
+- Velocità di movimento dei giocatori randomica
+- Controllo del vincitore
