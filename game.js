@@ -131,3 +131,10 @@ function updateRunners(){
         }
     }
 }
+
+// Funzione per avviare il gioco alla pressione di un tasto della tastiera
+function keyPressed(){
+    if (key === ' ' && gameState === 'START'){
+        gameState = 'RACING';
+    }
+}
