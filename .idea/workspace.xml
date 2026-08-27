@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificato il CHANGELOG.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato CHANGELOG.md">
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787826401030</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787829407881</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1787829407881</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +360,6 @@
     <MESSAGE value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
     <MESSAGE value="Risolto l'errore: mancava l'indice!" />
     <MESSAGE value="Spostati i giocatori nelle rispettive piste" />
-    <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunto commento per riconoscere l'utilizzo della funzione" />
     <MESSAGE value="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti" />
     <MESSAGE value="Implementata la funzione per disegnare le Legenda" />
@@ -361,6 +368,7 @@
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elemente" />
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
     <MESSAGE value="Modificato il CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificato il CHANGELOG.md" />
+    <MESSAGE value="Aggiornato CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
   </component>
 </project>

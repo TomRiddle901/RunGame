@@ -2,6 +2,13 @@
 let canvasWidth = 900;
 let canvasHeight = 500;
 
+// Impostazioni area di gioco
+let finishLineX = canvasWidth - 70;
+
+// Impostazioni stato del gioco
+let gameState = 'START'; // Stato del gioco: 'START', 'RACING', FINISH'
+let winner = null;
+
 // Giocatori
 let startLineX = 70; // Posizione di partenza
 let runners = [ // Array di giocatori
