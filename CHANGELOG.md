@@ -8,10 +8,9 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Associazione del colore del concorrente ad un argomento di TPSIT
+- Array di domande per argomento
 - Sistema di estrazione delle domande
 - Gestione delle risposte
-- Legenda degli argomenti
 - Animazioni e personalizzazione grafica
 
 ---
