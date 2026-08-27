@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza">
-      <change beforePath="$PROJECT_DIR$/.idea/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificato il CHANGELOG.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
@@ -55,6 +54,11 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -190,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787823670907</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati">
+      <option name="closed" value="true" />
+      <created>1787824057599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1787824057599</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Modificato il CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787824131330</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1787824131330</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +231,8 @@
     <MESSAGE value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
     <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
     <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
+    <MESSAGE value="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati" />
+    <MESSAGE value="Modificato il CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificato il CHANGELOG.md" />
   </component>
 </project>
