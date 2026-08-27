@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto commento per riconoscere l'utilizzo della funzione">
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Ho sbagliato a scrivere il nome della variabile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,15 +271,45 @@
       <option name="project" value="LOCAL" />
       <updated>1787825710921</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti">
+      <option name="closed" value="true" />
+      <created>1787826084866</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826084866</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Implementata la funzione per disegnare le Legenda">
+      <option name="closed" value="true" />
+      <created>1787826118894</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826118894</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Spostata posizione della legenda">
+      <option name="closed" value="true" />
+      <created>1787826164817</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826164817</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Ho sbagliato a scrivere il nome della variabile">
+      <option name="closed" value="true" />
+      <created>1787826202533</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1787826202533</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nuovo progetto per compiti vacanze estive" />
-    <MESSAGE value="Creato header HTML, aggiunto titolo, CDN per la libreria p5.js e collegamento al file CSS" />
     <MESSAGE value="Aggiunto titolo e sottotitolo alla pagina, creato DIV per contenere il gioco e collegato il file script.js" />
     <MESSAGE value="Cambiato nome del file da script.js a game.js (più idoneo)" />
     <MESSAGE value="Creato il file CHANGELOG.md" />
@@ -303,6 +331,10 @@
     <MESSAGE value="Spostati i giocatori nelle rispettive piste" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunto commento per riconoscere l'utilizzo della funzione" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto commento per riconoscere l'utilizzo della funzione" />
+    <MESSAGE value="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti" />
+    <MESSAGE value="Implementata la funzione per disegnare le Legenda" />
+    <MESSAGE value="Spostata posizione della legenda" />
+    <MESSAGE value="Ho sbagliato a scrivere il nome della variabile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ho sbagliato a scrivere il nome della variabile" />
   </component>
 </project>

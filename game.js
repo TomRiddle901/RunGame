@@ -88,17 +88,17 @@ function drawLegend(){
     // Formattazione del testo
     textSize(12);
     textAlign(LEFT, CENTER);
-    let legendX = 50;
+    let legendX = 60;
     let legendY = 440;
 
     // Titolo della legenza
     fill(255);
-    text("Legenda degli argomenti di TPSIT: ", legendX, legendY - 20);
+    text("Legenda degli argomenti di TPSIT: ", legendX - 5, legendY - 20);
 
     // Ciclo per mostrare gli argomenti di TPSIT
     for (let i = 0; i < runners.length; i++){
         let player = runners[i];
-        let posX = legendX + (i * 20);
+        let posX = legendX + (i * 200);
 
         // Quadratino del colore del giocatore
         fill(player.color);
