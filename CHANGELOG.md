@@ -32,3 +32,5 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 ### Added
 - Velocità di movimento dei giocatori randomica
 - Controllo del vincitore
+- Aggiunto stato del gioco (inizio, in gara, fine)ù
+- Aggiunto avvio del gioco premendo `SPAZIO`
