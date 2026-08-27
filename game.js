@@ -46,4 +46,7 @@ function drawTrack(){
 
     // Disegno della linea di traguardo
     line(width - 70, 40, width - 70, 390);
+
+    // Rimozione bordo dei quadrati
+    noStroke();
 }
