@@ -27,3 +27,4 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Creato file index.html
 - Integrata la libreria `p5.js`
 - Creato il canvas di gioco
+- Realizzata una pista composta da 4 corsie
