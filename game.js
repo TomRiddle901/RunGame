@@ -14,3 +14,12 @@ function setup(){
     rectMode(CENTER);
     textAlign(CENTER, CENTER);
 }
+
+function draw(){
+    // Colore di sfondo
+    background(30, 30, 30);
+
+    // Disegna la pista
+    drawTrack();
+}
+
