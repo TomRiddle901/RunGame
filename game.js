@@ -23,3 +23,18 @@ function draw(){
     drawTrack();
 }
 
+// Funzione per disegnare la pista
+function drawTrack(){
+    // Altezza di ogni corsia
+    let laneHeight = 90;
+
+    // Posizione iniziale della prima corsia
+    let startY = 80;
+
+    // Disegno delle 4 corsie
+    for (let i = 0; i < 4; i++){
+        fill(70, 70, 70);
+
+        rect(width / 2, startY + i * laneHeight, width - 100, laneHeight - 10);
+    }
+}

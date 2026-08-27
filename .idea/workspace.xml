@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunta ultima modifica al CHANGELOG.md">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Impostate funzioni draw, e drawTrack()">
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787822645237</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Impostate funzioni draw, e drawTrack()">
+      <option name="closed" value="true" />
+      <created>1787822825407</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1787822825407</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="Aggiunte impostazioni per dimensione del canvas e funzione di setup per impostare il canvas" />
     <MESSAGE value="Metodo sbagliato per inserire il canvas nell'HTML" />
     <MESSAGE value="Aggiunta ultima modifica al CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta ultima modifica al CHANGELOG.md" />
+    <MESSAGE value="Impostate funzioni draw, e drawTrack()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Impostate funzioni draw, e drawTrack()" />
   </component>
 </project>
