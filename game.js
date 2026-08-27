@@ -102,11 +102,11 @@ function drawLegend(){
 
         // Quadratino del colore del giocatore
         fill(player.color);
-        rect(xPos, legendY, 12, 12);
+        rect(posX, legendY, 12, 12);
 
         // Nome dell'argomento di TPSIT
         fill(255);
-        text(player.topic, xPos + 10, legendY);
+        text(player.topic, posX + 10, legendY);
     }
 
     // Ripristino dell'allineamento centrale per tutti i testi (esclusa legenda)
