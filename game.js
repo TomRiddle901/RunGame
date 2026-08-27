@@ -66,15 +66,15 @@ function drawTrack(){
 function drawRunners(){
     for (let i = 0; i < runners.length; i++){
         // Colore del giocatore
-        fill(runners.color);
+        fill(runners[i].color);
 
         // Forma del giocatore (per ora ellisse)
-        ellipse(runners.x, runners.y, 30, 30);
+        ellipse(runners[i].x, runners[i].y, 30, 30);
 
         // Etichetta con il numero del giocatore
         fill(255);
         textSize(12);
         textAlign(CENTER, CENTER);
-        text(runners.id, runners.x, runners.y);
+        text(runners[i].id, runners[i].x, runners[i].y);
     }
 }

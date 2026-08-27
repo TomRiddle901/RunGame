@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Implementata la funzione per disegnare i giocatori" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787824949053</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML">
+      <option name="closed" value="true" />
+      <created>1787825212752</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1787825212752</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +265,7 @@
     <MESSAGE value="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia" />
     <MESSAGE value="Creata la funzione per disegnare i giocatori" />
     <MESSAGE value="Implementata la funzione per disegnare i giocatori" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementata la funzione per disegnare i giocatori" />
+    <MESSAGE value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
   </component>
 </project>
