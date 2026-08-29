@@ -60,7 +60,7 @@ const domandeTPSIT = {
         }
     ]
 }
-let currentQuestion = "";
+let currentQuestionObj = null;
 
 // Funzione di setup
 function setup(){
@@ -88,6 +88,7 @@ function setup(){
 
     // Avvia la funzione per gestire la risposta quando viene premuto il bottone
     btnInvia.mousePressed(gestisciRisposta);
+    keyPressed()
 }
 
 function draw(){
