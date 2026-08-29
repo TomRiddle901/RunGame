@@ -163,6 +163,7 @@ function updateRunners(){
             gameState = 'FINISH';
             winner = runners[i];
             console.log("L'argomento che ha vinto è: " + winner.topic);
+            extractQuestion(winner.topic); // Passaggio dell'argomento del vincitore
         }
     }
 }
@@ -174,6 +175,7 @@ function keyPressed(){
     }
 }
 
+// Funzione per estrarre le domande di un argomento di modo randomico
 function extractQuestion(topic){
     let questions = domandeTPSIT[topic];
     let randomIndex = random(questions.length);
