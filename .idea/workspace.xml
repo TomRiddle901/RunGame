@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Implementata funzione estrazione domande">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md">
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -438,14 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1787996948314</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787997367924</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1787997367924</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati" />
     <MESSAGE value="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia" />
     <MESSAGE value="Creata la funzione per disegnare i giocatori" />
     <MESSAGE value="Implementata la funzione per disegnare i giocatori" />
@@ -470,6 +477,7 @@
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md" />
     <MESSAGE value="Implementata funzione estrazione domande" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementata funzione estrazione domande" />
+    <MESSAGE value="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md" />
   </component>
 </project>
