@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificata posizione casella di input e aggiunto effetto trasparente">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Cambiata posizione del bottone e aggiunti effetti" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza">
-      <option name="closed" value="true" />
-      <created>1787823670907</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1787823670907</updated>
     </task>
     <task id="LOCAL-00016" summary="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati">
       <option name="closed" value="true" />
@@ -478,14 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788010024962</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Cambiata posizione del bottone e aggiunti effetti">
+      <option name="closed" value="true" />
+      <created>1788010378466</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1788010378466</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
     <MESSAGE value="Implementata la gestione dello stato del gioco" />
     <MESSAGE value="Creata lista di domande per ogni argomento di TPSIT" />
@@ -510,6 +507,7 @@
     <MESSAGE value="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
     <MESSAGE value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
     <MESSAGE value="Modificata posizione casella di input e aggiunto effetto trasparente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificata posizione casella di input e aggiunto effetto trasparente" />
+    <MESSAGE value="Cambiata posizione del bottone e aggiunti effetti" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiata posizione del bottone e aggiunti effetti" />
   </component>
 </project>
