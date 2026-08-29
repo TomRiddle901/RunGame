@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per riavviare il gioco" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunti ID al bottone e alla casella di testo per il CSS">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Metodo sbagliato per inserire il canvas nell'HTML">
-      <option name="closed" value="true" />
-      <created>1787822566029</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1787822566029</updated>
     </task>
     <task id="LOCAL-00009" summary="Aggiunta ultima modifica al CHANGELOG.md">
       <option name="closed" value="true" />
@@ -476,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788008194760</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Aggiunti ID al bottone e alla casella di testo per il CSS">
+      <option name="closed" value="true" />
+      <created>1788008507390</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1788008507390</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ho sbagliato a scrivere il nome della variabile" />
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elemente" />
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
     <MESSAGE value="Modificato il CHANGELOG.md" />
@@ -508,6 +509,7 @@
     <MESSAGE value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
     <MESSAGE value="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)" />
     <MESSAGE value="Creata funzione per riavviare il gioco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per riavviare il gioco" />
+    <MESSAGE value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
   </component>
 </project>
