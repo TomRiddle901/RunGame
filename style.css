@@ -35,10 +35,13 @@ h2{
     color: #0a05c0;
 }
 
-/* Contenitore del gioco */
+/* Contenitore canvas p5.js */
 #game-container{
     position: relative;
     display: inline-block;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(42, 157, 143, 0.2);
 }
 
 /* Casella di testo */
