@@ -8,7 +8,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Animazioni e personalizzazione grafica
+- File `.json` con un piccolo database di domante e keywords per argomento
 
 ---
 
