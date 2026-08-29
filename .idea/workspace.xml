@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato CHANGELOG.md" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto `div` per il titolo e il sottotitolo del sito">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,22 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco">
-      <option name="closed" value="true" />
-      <created>1787829572550</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1787829572550</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Creata la funzione per far muovere i personaggi ad una velocità random">
-      <option name="closed" value="true" />
-      <created>1787829830749</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1787829830749</updated>
     </task>
     <task id="LOCAL-00036" summary="Rimosse impostazioni area di gioco perché calcolo fine corsa aggiunto direttamente nella condizione">
       <option name="closed" value="true" />
@@ -476,15 +462,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788015792427</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Implementati collegamenti ai font OpenSource di Google">
+      <option name="closed" value="true" />
+      <created>1788016053490</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1788016053490</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Aggiunto `div` per il titolo e il sottotitolo del sito">
+      <option name="closed" value="true" />
+      <created>1788016119461</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1788016119461</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
-    <MESSAGE value="Spostata la casella di input al di sotto della domanda" />
     <MESSAGE value="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS" />
     <MESSAGE value="Spostato il bottone affianco alla casella di input" />
     <MESSAGE value="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
@@ -508,6 +508,8 @@
     <MESSAGE value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
     <MESSAGE value="Corretto errore CSS: rimosso `.position` al bottone e al campo di testo che si trovavano dentro la funzione `updateRunners()`, così ora verranno lette le posizioni del CSS e non di `p5.js`" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Implementati collegamenti ai font OpenSource di Google" />
+    <MESSAGE value="Aggiunto `div` per il titolo e il sottotitolo del sito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto `div` per il titolo e il sottotitolo del sito" />
   </component>
 </project>
