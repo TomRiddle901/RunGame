@@ -181,3 +181,20 @@ function extractQuestion(topic){
     let randomIndex = random(questions.length);
     currentQuestion = questions[randomIndex];
 }
+
+// Funzione per visualizzare la domanda sullo schermo
+function drawQuestion(){
+    // Sfondo leggermente trasparente
+    fill(0, 0, 0, 220);
+    rect(width / 2, height / 2, width - 100, 100, 10);
+
+    // Titolo del vincitore
+    fill(winner.color);
+    textSize(18);
+    text("Ha vinto il concorrente " + winner.id + ", " + winner.topic + "!", width / 2, height / 2 - 50);
+
+    // Testo della domanda
+    fill(255);
+    textSize(14);
+    text("Domanda: " + currentQuestion, width / 2, height / 2);
+}

@@ -8,7 +8,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Sistema di estrazione delle domande
 - Gestione delle risposte
 - Animazioni e personalizzazione grafica
 
@@ -36,3 +35,4 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 ## [0.3.0] - 28/08/2026
 - Aggiunto un array di domande per argomento *(2 ad argomento)*
 - Aggiunto sistema di estrazione delle domande randomico
+- Aggiunto sistema di visualizzazione delle domande

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato CHANGELOG.md">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Implementata funzione estrazione domande">
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -422,15 +422,29 @@
       <option name="project" value="LOCAL" />
       <updated>1787996757246</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787996871288</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1787996871288</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Implementata funzione estrazione domande">
+      <option name="closed" value="true" />
+      <created>1787996948314</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1787996948314</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
-    <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
     <MESSAGE value="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati" />
     <MESSAGE value="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia" />
     <MESSAGE value="Creata la funzione per disegnare i giocatori" />
@@ -454,6 +468,8 @@
     <MESSAGE value="Implementata la gestione dello stato del gioco" />
     <MESSAGE value="Creata lista di domande per ogni argomento di TPSIT" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md" />
+    <MESSAGE value="Implementata funzione estrazione domande" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementata funzione estrazione domande" />
   </component>
 </project>
