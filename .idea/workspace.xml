@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato CHANGELOG.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,22 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Modificato il CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787826401030</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1787826401030</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Aggiornato CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787829407881</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1787829407881</updated>
     </task>
     <task id="LOCAL-00034" summary="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco">
       <option name="closed" value="true" />
@@ -480,15 +460,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788015023457</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Corretto errore CSS: rimosso `.position` al bottone e al campo di testo che si trovavano dentro la funzione `updateRunners()`, così ora verranno lette le posizioni del CSS e non di `p5.js`">
+      <option name="closed" value="true" />
+      <created>1788015626102</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1788015626103</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1788015792427</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1788015792427</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)" />
-    <MESSAGE value="Creata funzione per riavviare il gioco" />
     <MESSAGE value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
     <MESSAGE value="Spostata la casella di input al di sotto della domanda" />
     <MESSAGE value="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS" />
@@ -512,6 +506,8 @@
     <MESSAGE value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
+    <MESSAGE value="Corretto errore CSS: rimosso `.position` al bottone e al campo di testo che si trovavano dentro la funzione `updateRunners()`, così ora verranno lette le posizioni del CSS e non di `p5.js`" />
+    <MESSAGE value="Aggiornato CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
   </component>
 </project>
