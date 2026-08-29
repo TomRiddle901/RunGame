@@ -6,6 +6,9 @@
 
 /* Casella di testo */
 #input-risposta{
+    position: absolute;
+    top: 280px;
+    left: 240px;
     width: 300px;
     padding: 8px 12px;
     box-sizing: border-box;
@@ -25,6 +28,9 @@
 
 /* Bottone di invio risposta */
 #btn-invia{
+    position: absolute;
+    top: 280px;
+    left: 545px;
     padding: 10px 18px;
     background-color: #2A9D8F;
     color: #ffffff;

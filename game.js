@@ -205,10 +205,7 @@ function updateRunners(){
             console.log("L'argomento che ha vinto è: " + winner.topic);
             extractQuestion(winner.topic); // Passaggio dell'argomento del vincitore
 
-            // Posizionamento del bottone e del campo di input
-            inputRisposta.position(width / 2 - 100, height / 2 + 30);
-            btnInvia.position(width / 2 + 80, height / 2 + 30);
-
+            // Visualizzo il bottone e il campo di input per la risposta
             inputRisposta.show();
             btnInvia.show();
             inputRisposta.value(''); // Pulizia del campo di input da vecchie risposte

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Modificata posizione del testo della legenda e della posizione degli elementi">
-      <option name="closed" value="true" />
-      <created>1787826344030</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1787826344030</updated>
     </task>
     <task id="LOCAL-00032" summary="Modificato il CHANGELOG.md">
       <option name="closed" value="true" />
@@ -479,14 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788014338599</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi">
+      <option name="closed" value="true" />
+      <created>1788015023457</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1788015023457</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
     <MESSAGE value="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)" />
     <MESSAGE value="Creata funzione per riavviare il gioco" />
     <MESSAGE value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
@@ -511,6 +511,7 @@
     <MESSAGE value="Corretti errori: anora alcune funzioni avevano la vecchia variabile `currentQuestion`, ora `currentQuestionObj`" />
     <MESSAGE value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
+    <MESSAGE value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
   </component>
 </project>
