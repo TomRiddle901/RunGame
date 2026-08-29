@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore per nascondere il bottone: variabile sbagliata">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Cambiato nome del file da script.js a game.js (più idoneo)">
-      <option name="closed" value="true" />
-      <created>1787821356573</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1787821356573</updated>
     </task>
     <task id="LOCAL-00006" summary="Creato il file CHANGELOG.md">
       <option name="closed" value="true" />
@@ -478,14 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788006071959</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte">
+      <option name="closed" value="true" />
+      <created>1788006474605</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1788006474605</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti" />
     <MESSAGE value="Implementata la funzione per disegnare le Legenda" />
     <MESSAGE value="Spostata posizione della legenda" />
     <MESSAGE value="Ho sbagliato a scrivere il nome della variabile" />
@@ -510,6 +510,7 @@
     <MESSAGE value="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto" />
     <MESSAGE value="Aggiunto evento per avviare la funzione di gestione delle risposte quando viene cliccato il bottone" />
     <MESSAGE value="Corretto errore per nascondere il bottone: variabile sbagliata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore per nascondere il bottone: variabile sbagliata" />
+    <MESSAGE value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
   </component>
 </project>

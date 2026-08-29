@@ -218,3 +218,16 @@ function drawQuestion(){
     textSize(14);
     text("Domanda: " + currentQuestion, width / 2, height / 2);
 }
+
+// Funzione per la gestione delle risposte
+function gestisciRisposta(){
+    let rispostaUtene = inputRisposta.value();
+    console.log("L'utente ha risposto: " + rispostaUtene);
+
+    // Nascodi interfaccia di risposta
+    inputRisposta.hide();
+    btnInvia.hide();
+
+    // Riavvia il gioco
+    restartGame();
+}
