@@ -262,7 +262,7 @@ function drawQuestion(){
     fill(winner.color);
     textSize(18);
     textStyle(BOLD);
-    text("🏆 Ha vinto il Concorrente " + winner.id + " (" + winner.topic + ")!", width / 2, height / 2 - 55);
+    text("Ha vinto il Concorrente " + winner.id + " (" + winner.topic + ")!", width / 2, height / 2 - 55);
 
     // Domanda estratta
     fill(230);
@@ -292,12 +292,10 @@ function gestisciRisposta(){
     let isCorretta = currentQuestionObj.keywords.some(keyword => rispostaUtente.includes(keyword));
 
     if (isCorretta){
-        feedbackMessaggio = "✨ Risposta esatta! Ottimo lavoro.";
+        feedbackMessaggio = "Risposta esatta! Ottimo lavoro.";
     } else {
-        feedbackMessaggio = "❌ Risposta sbagliata! Ripassa l'argomento.";
+        feedbackMessaggio = "Risposta sbagliata! Ripassa l'argomento.";
     }
-
-    console.log("Risposta: " + rispostaUtene + " | Esito: " + feedbackMessaggio);
 
     // Nascodi interfaccia di risposta
     inputRisposta.hide();
