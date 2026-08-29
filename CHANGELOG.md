@@ -8,7 +8,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Array di domande per argomento
 - Sistema di estrazione delle domande
 - Gestione delle risposte
 - Animazioni e personalizzazione grafica
@@ -33,3 +32,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Controllo del vincitore
 - Aggiunto stato del gioco (inizio, in gara, fine)ù
 - Aggiunto avvio del gioco premendo `SPAZIO`
+
+## [0.3.0] - 28/08/2026
+- Aggiunto un array di domande per argomento (2 ad argomento)
