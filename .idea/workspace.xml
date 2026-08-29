@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta">
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificato CHANGELOG.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Creata la funzione per disegnare i giocatori">
-      <option name="closed" value="true" />
-      <created>1787824903467</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1787824903467</updated>
     </task>
     <task id="LOCAL-00020" summary="Implementata la funzione per disegnare i giocatori">
       <option name="closed" value="true" />
@@ -478,14 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788010654829</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Modificato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1788010880264</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1788010880264</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md" />
     <MESSAGE value="Implementata funzione estrazione domande" />
     <MESSAGE value="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md" />
@@ -510,6 +510,7 @@
     <MESSAGE value="Non doveva essere commentata questo event listener importante" />
     <MESSAGE value="Non serve il `;` quando chiamo una funzione....." />
     <MESSAGE value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
+    <MESSAGE value="Modificato CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificato CHANGELOG.md" />
   </component>
 </project>

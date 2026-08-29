@@ -20,20 +20,44 @@ let runners = [ // Array di giocatori
 // Domande per argomento
 const domandeTPSIT = {
     "CPU Scheduler": [
-        "Quali sono gli stati di un processo?",
-        "Qual'è la differenza tra uno scheduling preemptive e non-preemptive?"
+        {
+            domanda: "Quali sono gli stati di un processo?",
+            keywords: ["pronto", "esecuzione", "attesa", "ready", "running", "blocked"]
+        },
+        {
+            domanda: "Qual'è la differenza tra uno scheduling preemptive e non-preemptive?",
+            keywords: ["interruzione", "priorità", "rilascio"]
+        }
     ],
     "Memory Manager": [
-        "Cos'è la memoria virtuale e a cosa serve?",
-        "Qual'è la differenza tra frammentazione esterna e frammentazione interna?"
+        {
+            domanda: "Cos'è la memoria virtuale e a cosa serve?",
+            keywords: ["ram", "disco", "pagine", "estensione", "spazio"]
+        },
+        {
+            domanda: "Qual'è la differenza tra frammentazione esterna e frammentazione interna?",
+            keywords: ["blocco", "spazio", "pagine", "segmenti", "inutilizzato"]
+        }
     ],
     "File System": [
-        "Qual'è la funzione di un i-node in un file system Linux?",
-        "Quali sono le diferenze tra allocazione contigua e concatenata?"
+        {
+            domanda: "Qual'è la funzione di un i-node in un file system Linux?",
+            keywords: ["metadati", "struttura", "pointer", "informazioni", "file"]
+        },
+        {
+            domanda: "Quali sono le diferenze tra allocazione contigua e concatenata?",
+            keywords: ["blocchi", "puntatore", "sequenziale", "frammentazione"]
+        }
     ],
     "Gestore delle periferiche": [
-        "A cosa serve il controller delle periferiche?",
-        "Cosa sono gli interrupt?"
+        {
+            domanda: "A cosa serve il controller delle periferiche?",
+            keywords: ["hardware", "interfaccia", "registro", "comunicazione"]
+        },
+        {
+            domanda: "Cosa sono gli interrupt?",
+            keywords: ["segnale", "cpu", "interruzione", "hardware", "priorità"]
+        }
     ]
 }
 let currentQuestion = "";
