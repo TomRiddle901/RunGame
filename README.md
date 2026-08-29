@@ -42,6 +42,7 @@
 
 ## Esecuzione del progetto
 ### Opzione 1 (consigliato)
+* GitHub Pages website: https://tomriddle901.github.io/RunGame/
 ### Opzione 2
 1. Clona o scarica il repository: `git clone https://github.com/TomRiddle901/RunGame.git` o (https://github.com/TomRiddle901/RunGame.git)
 2. Apri il file `index.html` in un qualsiasi browser web ***moderno e aggiornato*** (oppure utilizza un server locale come l'estensione Live Server di VSCode o utilizzando WebStorm).
