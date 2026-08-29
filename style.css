@@ -28,16 +28,18 @@
 /* Bottone di invio risposta */
 #btn-invia{
     position: absolute;
-    top: 285px;
-    left: 505px;
-    padding: 6px 12px;
-    border-radius: 4px;
-    border: none;
+    top: 280px;
+    left: 515px;
+    padding: 10px 18px;
     background-color: #2A9D8F;
-    color: white;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
     font-weight: bold;
+    font-size: 14px;
     cursor: pointer;
     z-index: 10;
+    transition: background-color 0.2s ease;
 }
 
 #btn-invia:hover{

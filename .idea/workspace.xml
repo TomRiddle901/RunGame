@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificata posizione casella di input e aggiunto effetto trasparente">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div">
-      <option name="closed" value="true" />
-      <created>1787823504212</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1787823504212</updated>
     </task>
     <task id="LOCAL-00015" summary="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza">
       <option name="closed" value="true" />
@@ -476,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788009339580</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Modificata posizione casella di input e aggiunto effetto trasparente">
+      <option name="closed" value="true" />
+      <created>1788010024962</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1788010024962</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rimosse impostazioni area di gioco perché calcolo fine corsa aggiunto direttamente nella condizione" />
     <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
     <MESSAGE value="Implementata la gestione dello stato del gioco" />
@@ -508,6 +509,7 @@
     <MESSAGE value="Spostato il bottone affianco alla casella di input" />
     <MESSAGE value="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
     <MESSAGE value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
+    <MESSAGE value="Modificata posizione casella di input e aggiunto effetto trasparente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificata posizione casella di input e aggiunto effetto trasparente" />
   </component>
 </project>
