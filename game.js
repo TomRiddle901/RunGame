@@ -173,3 +173,9 @@ function keyPressed(){
         gameState = 'RACING';
     }
 }
+
+function extractQuestion(topic){
+    let questions = domandeTPSIT[topic];
+    let randomIndex = random(questions.length);
+    currentQuestion = questions[randomIndex];
+}

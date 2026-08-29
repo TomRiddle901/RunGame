@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato CHANGELOG.md">
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -407,14 +406,29 @@
       <option name="project" value="LOCAL" />
       <updated>1787830470415</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Creata lista di domande per ogni argomento di TPSIT">
+      <option name="closed" value="true" />
+      <created>1787996671015</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1787996671015</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787996757246</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1787996757246</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
     <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
     <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
     <MESSAGE value="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati" />
@@ -438,6 +452,7 @@
     <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
     <MESSAGE value="Implementata la gestione dello stato del gioco" />
+    <MESSAGE value="Creata lista di domande per ogni argomento di TPSIT" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
   </component>
