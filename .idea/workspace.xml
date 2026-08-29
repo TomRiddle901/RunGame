@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco">
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creato file README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,30 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787996871288</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1787996871288</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Implementata funzione estrazione domande">
-      <option name="closed" value="true" />
-      <created>1787996948314</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1787996948314</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787997367924</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1787997367924</updated>
     </task>
     <task id="LOCAL-00046" summary="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo">
       <option name="closed" value="true" />
@@ -479,15 +455,37 @@
       <option name="project" value="LOCAL" />
       <updated>1788017625359</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Rimossa stampa di un messaggio su console: non è necessario">
+      <option name="closed" value="true" />
+      <created>1788017900539</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1788017900539</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1788017916723</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1788017916724</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Creato file README.md">
+      <option name="closed" value="true" />
+      <created>1788018036772</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1788018036772</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Non doveva essere commentata questo event listener importante" />
-    <MESSAGE value="Non serve il `;` quando chiamo una funzione....." />
     <MESSAGE value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
     <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Aggiunte keywords in modo che si possa comprendere se la risposta è giusta/sbagliata" />
@@ -502,7 +500,6 @@
     <MESSAGE value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
     <MESSAGE value="Corretto errore CSS: rimosso `.position` al bottone e al campo di testo che si trovavano dentro la funzione `updateRunners()`, così ora verranno lette le posizioni del CSS e non di `p5.js`" />
-    <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Implementati collegamenti ai font OpenSource di Google" />
     <MESSAGE value="Aggiunto `div` per il titolo e il sottotitolo del sito" />
     <MESSAGE value="Aggiunto stile globale della pagina" />
@@ -511,6 +508,9 @@
     <MESSAGE value="Modificato lo stile della casella di testo" />
     <MESSAGE value="Modificata decorazione al bottone con aggiunta di animazioni" />
     <MESSAGE value="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco" />
+    <MESSAGE value="Rimossa stampa di un messaggio su console: non è necessario" />
+    <MESSAGE value="Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Creato file README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato file README.md" />
   </component>
 </project>
