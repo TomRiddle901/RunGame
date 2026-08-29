@@ -13,6 +13,28 @@ body{
     box-sizing: border-box;
 }
 
+/* Stile titolo ed header */
+.head-container{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2A9D8F;
+    text-shadow: 0 0 15px rgba(42, 157, 143, 0.5);
+}
+
+h2{
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0a05c0;
+}
+
 /* Contenitore del gioco */
 #game-container{
     position: relative;
