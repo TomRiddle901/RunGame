@@ -7,14 +7,22 @@
 /* Casella di testo */
 #input-risposta{
     position: absolute;
-    top: 285px;
-    left: 290px;
-    width: 200px;
-    padding: 6px 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    top: 280px;
+    left: 240px;
+    width: 260px;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
     outline: none;
+    font-size: 14px;
     z-index: 10;
+}
+
+#input-risposta:focus{
+    border-color: #2A9D8F;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* Bottone di invio risposta */

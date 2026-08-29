@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Aggiunto disegno della linea di pertanza nella funzione drawTrack()">
-      <option name="closed" value="true" />
-      <created>1787823349355</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1787823349355</updated>
     </task>
     <task id="LOCAL-00014" summary="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div">
       <option name="closed" value="true" />
@@ -476,14 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788009254342</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto">
+      <option name="closed" value="true" />
+      <created>1788009339580</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1788009339580</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata la funzione per far muovere i personaggi ad una velocità random" />
     <MESSAGE value="Rimosse impostazioni area di gioco perché calcolo fine corsa aggiunto direttamente nella condizione" />
     <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
@@ -508,6 +507,7 @@
     <MESSAGE value="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS" />
     <MESSAGE value="Spostato il bottone affianco alla casella di input" />
     <MESSAGE value="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
-    <option name="LAST_COMMIT_MESSAGE" value="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
+    <MESSAGE value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
   </component>
 </project>
