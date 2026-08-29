@@ -54,6 +54,11 @@ function setup(){
     inputRisposta = createInput('');
     inputRisposta.parent('game-container');
     inputRisposta.hide(); // Nasconde la casella ti testo
+
+    // Bottone di invio della risposta
+    btnInvia = createButton('Invia Risposta');
+    btnInvia.parent('game-container');
+    inputRisposta.hide(); // Bottone di invio risposta nascosto
 }
 
 function draw(){
