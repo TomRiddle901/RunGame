@@ -245,6 +245,12 @@ function drawQuestion(){
     fill(255);
     textSize(14);
     text("Domanda: " + currentQuestion, width / 2, height / 2);
+
+    if (feedbackMessaggio !== ""){
+        fill(255, 215, 0);
+        textSize(16);
+        text(feedbackMessaggio, width / 2, height / 2 + 40);
+    }
 }
 
 // Funzione per la gestione delle risposte

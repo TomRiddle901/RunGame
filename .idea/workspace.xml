@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto controllo validità risposta" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto timeout prima del reset del gioco">
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Aggiunto commento per riconoscere l'utilizzo della funzione">
-      <option name="closed" value="true" />
-      <created>1787825710921</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1787825710921</updated>
     </task>
     <task id="LOCAL-00026" summary="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti">
       <option name="closed" value="true" />
@@ -476,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788012022765</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Aggiunto timeout prima del reset del gioco">
+      <option name="closed" value="true" />
+      <created>1788012101279</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1788012101279</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunte variabili globali per il testo in input e il bottone per inviare la risposta" />
     <MESSAGE value="Creata la casella di testo per la risposta, aggiunta al `div` del gioco e nascosta" />
     <MESSAGE value="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto" />
     <MESSAGE value="Aggiunto evento per avviare la funzione di gestione delle risposte quando viene cliccato il bottone" />
@@ -508,6 +509,7 @@
     <MESSAGE value="Cambiato nome alla variabile" />
     <MESSAGE value="Aggiunta della verifica della rpesenza di input nel campo di testo" />
     <MESSAGE value="Aggiunto controllo validità risposta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto controllo validità risposta" />
+    <MESSAGE value="Aggiunto timeout prima del reset del gioco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto timeout prima del reset del gioco" />
   </component>
 </project>
