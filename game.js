@@ -25,7 +25,7 @@ const domandeTPSIT = {
             keywords: ["pronto", "esecuzione", "attesa", "ready", "running", "blocked"]
         },
         {
-            domanda: "Qual'è la differenza tra uno scheduling preemptive e non-preemptive?",
+            domanda: "Qual'è la differenza tra scheduling preemptive e non-preemptive?",
             keywords: ["interruzione", "priorità", "rilascio"]
         }
     ],
@@ -35,17 +35,17 @@ const domandeTPSIT = {
             keywords: ["ram", "disco", "pagine", "estensione", "spazio"]
         },
         {
-            domanda: "Qual'è la differenza tra frammentazione esterna e frammentazione interna?",
+            domanda: "Differenza tra frammentazione esterna ed interna?",
             keywords: ["blocco", "spazio", "pagine", "segmenti", "inutilizzato"]
         }
     ],
     "File System": [
         {
-            domanda: "Qual'è la funzione di un i-node in un file system Linux?",
+            domanda: "Qual'è la funzione di un i-node in Linux?",
             keywords: ["metadati", "struttura", "pointer", "informazioni", "file"]
         },
         {
-            domanda: "Quali sono le diferenze tra allocazione contigua e concatenata?",
+            domanda: "Differenze tra allocazione contigua e concatenata?",
             keywords: ["blocchi", "puntatore", "sequenziale", "frammentazione"]
         }
     ],
@@ -59,7 +59,8 @@ const domandeTPSIT = {
             keywords: ["segnale", "cpu", "interruzione", "hardware", "priorità"]
         }
     ]
-}
+};
+
 let currentQuestionObj = null;
 let feedbackMessaggio = "";
 
@@ -75,26 +76,24 @@ function setup(){
     rectMode(CENTER);
     textAlign(CENTER, CENTER);
 
-    // Casella di testo per la risposta
+    // Casella di testo
     inputRisposta = createInput('');
     inputRisposta.parent('game-container');
     inputRisposta.id('input-risposta');
-    inputRisposta.hide(); // Nasconde la casella ti testo
+    inputRisposta.hide();
 
-    // Bottone di invio della risposta
-    btnInvia = createButton('Invia Risposta');
+    // Bottone
+    btnInvia = createButton('Invia');
     btnInvia.parent('game-container');
     btnInvia.id('btn-invia');
-    btnInvia.hide(); // Bottone di invio risposta nascosto
+    btnInvia.hide();
 
     // Avvia la funzione per gestire la risposta quando viene premuto il bottone
     btnInvia.mousePressed(gestisciRisposta);
-    keyPressed()
 }
 
 function draw(){
-    // Colore di sfondo
-    background(30, 30, 30);
+    background(18, 20, 29);
 
     // Disegna la pista
     drawTrack();
@@ -109,7 +108,9 @@ function draw(){
     if (gameState === 'START'){
         fill(255);
         textSize(16);
-        text("Premi SPAZIO per iniziare la gara", width / 2, 20);
+        textStyle(BOLD);
+        text("PREMI SPAZIO PER INIZIARE LA GARA", width / 2, 20);
+        textStyle(NORMAL);
     }else if (gameState === 'RACING'){
         updateRunners();
     }else if (gameState === 'FINISH'){
@@ -117,7 +118,7 @@ function draw(){
     }
 }
 
-// Funzione per disegnare la pista
+// Pista stilizzata con traguardo a scacchi e cordoli
 function drawTrack(){
     // Altezza di ogni corsia
     let laneHeight = 90;
@@ -127,52 +128,75 @@ function drawTrack(){
 
     // Disegno delle 4 corsie
     for (let i = 0; i < 4; i++){
-        fill(70, 70, 70);
+        let yPos = startY + i * laneHeight;
 
-        rect(width / 2, startY + i * laneHeight, width - 100, laneHeight - 10);
+        // Corsia
+        fill(32, 35, 48);
+        rect(width / 2, yPos, width - 100, laneHeight - 12, 6);
+
+        // Linea tratteggiata centrale di corsia
+        stroke(50, 55, 75);
+        strokeWeight(2);
+        for(let x = 80; x < width - 80; x += 20) {
+            line(x, yPos, x + 10, yPos);
+        }
+        noStroke();
     }
 
-    // Disegno della linea di partenza
-    stroke(255);
-    strokeWeight(3);
-
-    line(70, 40, 70, 390);
-
-    // Disegno della linea di traguardo
-    line(width - 70, 40, width - 70, 390);
-
-    // Rimozione bordo dei quadrati
+    // Linea di partenza luminosa
+    stroke(255, 255, 255, 180);
+    strokeWeight(4);
+    line(70, 38, 70, 392);
     noStroke();
+
+    // Traguardo a scacchi
+    let checkSize = 10;
+    let finishX = width - 70;
+    for (let y = 38; y < 392; y += checkSize) {
+        let isWhite = (Math.floor(y / checkSize)) % 2 === 0;
+        fill(isWhite ? 255 : 30);
+        rect(finishX, y + checkSize/2, checkSize, checkSize);
+    }
 }
 
-// Funzione per disegnare i giocatori
+// Disegno dei concorrenti come navicelle/veicoli aerodinamici
 function drawRunners(){
     for (let i = 0; i < runners.length; i++){
-        // Colore del giocatore
-        fill(runners[i].color);
+        let r = runners[i];
 
-        // Forma del giocatore (per ora ellisse)
-        ellipse(runners[i].x, runners[i].y, 30, 30);
+        // Scia di movimento durante la gara
+        if (gameState === 'RACING') {
+            fill(color(r.color));
+            ellipse(r.x - 15, r.y, 20, 8);
+        }
 
-        // Etichetta con il numero del giocatore
-        fill(255);
-        textSize(12);
-        textAlign(CENTER, CENTER);
-        text(runners[i].id, runners[i].x, runners[i].y);
+        // Corpo del veicolo
+        fill(r.color);
+        rect(r.x, r.y, 36, 22, 6);
+
+        // Cabina di guida
+        fill(255, 255, 255, 220);
+        ellipse(r.x + 4, r.y, 12, 10);
+
+        // Numero del giocatore
+        fill(0);
+        textSize(11);
+        textStyle(BOLD);
+        text(r.id, r.x - 8, r.y);
+        textStyle(NORMAL);
     }
 }
 
-// Disegno della legenda degli argomenti
+// Legenda inferiore
 function drawLegend(){
     // Formattazione del testo
     textSize(12);
     textAlign(LEFT, CENTER);
     let legendX = 60;
-    let legendY = 440;
+    let legendY = 450;
 
-    // Titolo della legenza
-    fill(255);
-    text("Legenda degli argomenti di TPSIT: ", legendX - 5, legendY - 20);
+    fill(160, 165, 192);
+    text("Argomenti TPSIT:", legendX - 5, legendY - 20);
 
     // Ciclo per mostrare gli argomenti di TPSIT
     for (let i = 0; i < runners.length; i++){
@@ -181,7 +205,7 @@ function drawLegend(){
 
         // Quadratino del colore del giocatore
         fill(player.color);
-        rect(posX, legendY, 12, 12);
+        rect(posX, legendY, 12, 12, 3);
 
         // Nome dell'argomento di TPSIT
         fill(255);
@@ -195,20 +219,18 @@ function drawLegend(){
 // Funzione per il movimento dei giocatori ad una velocità random
 function updateRunners(){
     for (let i = 0; i < runners.length; i++){
-        // Avanzamento casuale di ogni giocatore
-        runners[i].x += random(1, 4); // random() è presente all'interno di p5.js
+        runners[i].x += random(1.5, 4.2);
 
         // Controllo del vincitore
         if (runners[i].x > (width - 70) && gameState !== 'FINISH'){
             gameState = 'FINISH';
             winner = runners[i];
-            console.log("L'argomento che ha vinto è: " + winner.topic);
-            extractQuestion(winner.topic); // Passaggio dell'argomento del vincitore
+            extractQuestion(winner.topic);
 
             // Visualizzo il bottone e il campo di input per la risposta
             inputRisposta.show();
             btnInvia.show();
-            inputRisposta.value(''); // Pulizia del campo di input da vecchie risposte
+            inputRisposta.value('');
         }
     }
 }
@@ -227,47 +249,52 @@ function extractQuestion(topic){
     currentQuestionObj = questions[randomIndex];
 }
 
-// Funzione per visualizzare la domanda sullo schermo
+// Modale retro-tech con bordo luminoso
 function drawQuestion(){
-    // Sfondo leggermente trasparente
-    fill(0, 0, 0, 220);
-    rect(width / 2, height / 2, width - 100, 150, 10);
+    // Card di sfondo
+    fill(15, 17, 26, 235);
+    stroke(color(winner.color));
+    strokeWeight(2);
+    rect(width / 2, height / 2, width - 140, 190, 12);
+    noStroke();
 
-    // Titolo del vincitore
+    // Intestazione Vincitore
     fill(winner.color);
     textSize(18);
-    text("Ha vinto il concorrente " + winner.id + ", " + winner.topic + "!", width / 2, height / 2 - 50);
+    textStyle(BOLD);
+    text("🏆 Ha vinto il Concorrente " + winner.id + " (" + winner.topic + ")!", width / 2, height / 2 - 55);
 
-    // Testo della domanda
-    fill(255);
+    // Domanda estratta
+    fill(230);
     textSize(14);
-    text("Domanda: " + currentQuestionObj.domanda, width / 2, height / 2);
+    textStyle(NORMAL);
+    text(currentQuestionObj.domanda, width / 2, height / 2 - 15);
 
+    // Messaggio Esito
     if (feedbackMessaggio !== ""){
-        fill(255, 215, 0);
-        textSize(16);
+        fill(feedbackMessaggio.includes("esatta") ? "#2A9D8F" : "#E63946");
+        textSize(15);
+        textStyle(BOLD);
         text(feedbackMessaggio, width / 2, height / 2 + 40);
+        textStyle(NORMAL);
     }
 }
 
 // Funzione per la gestione delle risposte
 function gestisciRisposta(){
-    let rispostaUtene = inputRisposta.value().toLowerCase().trim();
-    console.log("L'utente ha risposto: " + rispostaUtene);
+    let rispostaUtente = inputRisposta.value().toLowerCase().trim();
 
-    // Verifica se è presente testo nel campo di input
-    if (rispostaUtene === ""){
+    if (rispostaUtente === ""){
         alert("Inserisci una risposta prima di inviare!");
         return;
     }
 
-    // Verifica se è presente almeno una parola chiave nella risposta
-    let isCorretta = currentQuestionObj.keywords.some(keyword => rispostaUtene.includes(keyword));
+    let isCorretta = currentQuestionObj.keywords.some(keyword => rispostaUtente.includes(keyword));
 
     if (isCorretta){
-        feedbackMessaggio = "Risposta esatta! Ottimo lavoro!";
-    }else{
-        feedbackMessaggio = "Risposta sbagliata! Ripassa l'argomento!";
+        feedbackMessaggio = "✨ Risposta esatta! Ottimo lavoro.";
+    } else {
+        feedbackMessaggio = "❌ Risposta sbagliata! Ripassa l'argomento.";
     }
 
     console.log("Risposta: " + rispostaUtene + " | Esito: " + feedbackMessaggio);
@@ -280,10 +307,10 @@ function gestisciRisposta(){
     setTimeout(() => {
         feedbackMessaggio = "";
         resetGame();
-    }, 2500)
+    }, 2500);
 }
 
-// Funzione per riavviare il goco
+// Funzione per riavviare il gioco
 function resetGame(){
     gameState = 'START';
     winner = null;
