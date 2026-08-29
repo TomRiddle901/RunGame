@@ -53,6 +53,8 @@ function setup(){
     // Casella di testo per la risposta
     inputRisposta = createInput('');
     inputRisposta.parent('game-container');
+    inputRisposta.id('input-risposta');
+    btnInvia.id('btn-invia');
     inputRisposta.hide(); // Nasconde la casella ti testo
 
     // Bottone di invio della risposta

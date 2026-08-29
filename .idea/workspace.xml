@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per riavviare il gioco" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,22 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Creato il file CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787822154069</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1787822154069</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Aggiunte impostazioni per dimensione del canvas e funzione di setup per impostare il canvas">
-      <option name="closed" value="true" />
-      <created>1787822445676</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1787822445676</updated>
     </task>
     <task id="LOCAL-00008" summary="Metodo sbagliato per inserire il canvas nell'HTML">
       <option name="closed" value="true" />
@@ -479,15 +460,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788006474605</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)">
+      <option name="closed" value="true" />
+      <created>1788008014997</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1788008014997</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Creata funzione per riavviare il gioco">
+      <option name="closed" value="true" />
+      <created>1788008194760</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1788008194760</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementata la funzione per disegnare le Legenda" />
-    <MESSAGE value="Spostata posizione della legenda" />
     <MESSAGE value="Ho sbagliato a scrivere il nome della variabile" />
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elemente" />
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
@@ -511,6 +506,8 @@
     <MESSAGE value="Aggiunto evento per avviare la funzione di gestione delle risposte quando viene cliccato il bottone" />
     <MESSAGE value="Corretto errore per nascondere il bottone: variabile sbagliata" />
     <MESSAGE value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
+    <MESSAGE value="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)" />
+    <MESSAGE value="Creata funzione per riavviare il gioco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per riavviare il gioco" />
   </component>
 </project>
