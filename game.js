@@ -231,3 +231,14 @@ function gestisciRisposta(){
     // Riavvia il gioco
     restartGame();
 }
+
+// Funzione per riavviare il goco
+function resetGame(){
+    gameState = 'START';
+    winner = null;
+    currentQuestion = "";
+
+    for (let i = 0; i < runners.length; i++){
+        runners[i].x = startLineX;
+    }
+}
