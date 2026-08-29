@@ -8,7 +8,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- Gestione delle risposte
 - Animazioni e personalizzazione grafica
 
 ---
@@ -43,3 +42,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Aggiunto reset del gioco dopo che si manda una risposta
 - Modificato stile e posizione campo di input con CSS
 - Modificato stile e posizione del bottone con CSS
+
+# [0.4.0] - 28/08/2026
+- Aggiunto controllo se la risposta è corretta o sbagliata

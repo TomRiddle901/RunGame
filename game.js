@@ -258,6 +258,17 @@ function gestisciRisposta(){
         return;
     }
 
+    // Verifica se è presente almeno una parola chiave nella risposta
+    let isCorretta = currentQuestionObj.keywords.some(keyword => rispostaUtene.includes(keyword));
+
+    if (isCorretta){
+        feedbackMessaggio = "Risposta esatta! Ottimo lavoro!";
+    }else{
+        feedbackMessaggio = "Risposta sbagliata! Ripassa l'argomento!";
+    }
+
+    console.log("Risposta: " + rispostaUtene + " | Esito: " + feedbackMessaggio);
+
     // Nascodi interfaccia di risposta
     inputRisposta.hide();
     btnInvia.hide();
