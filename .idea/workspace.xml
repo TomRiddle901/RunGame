@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunte variabili globali per il testo in input e il bottone per inviare la risposta">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto">
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,14 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Nuovo progetto per compiti vacanze estive">
-      <option name="closed" value="true" />
-      <created>1787820584849</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1787820584849</updated>
     </task>
     <task id="LOCAL-00002" summary="Nuovo progetto per compiti vacanze estive">
       <option name="closed" value="true" />
@@ -470,15 +462,29 @@
       <option name="project" value="LOCAL" />
       <updated>1787998306874</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Creata la casella di testo per la risposta, aggiunta al `div` del gioco e nascosta">
+      <option name="closed" value="true" />
+      <created>1787998492263</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1787998492263</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto">
+      <option name="closed" value="true" />
+      <created>1787998619796</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1787998619802</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
-    <MESSAGE value="Risolto l'errore: mancava l'indice!" />
     <MESSAGE value="Spostati i giocatori nelle rispettive piste" />
     <MESSAGE value="Aggiunto commento per riconoscere l'utilizzo della funzione" />
     <MESSAGE value="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti" />
@@ -502,6 +508,8 @@
     <MESSAGE value="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo" />
     <MESSAGE value="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali" />
     <MESSAGE value="Aggiunte variabili globali per il testo in input e il bottone per inviare la risposta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunte variabili globali per il testo in input e il bottone per inviare la risposta" />
+    <MESSAGE value="Creata la casella di testo per la risposta, aggiunta al `div` del gioco e nascosta" />
+    <MESSAGE value="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto" />
   </component>
 </project>
