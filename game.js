@@ -244,7 +244,7 @@ function drawQuestion(){
     // Testo della domanda
     fill(255);
     textSize(14);
-    text("Domanda: " + currentQuestion, width / 2, height / 2);
+    text("Domanda: " + currentQuestionObj.domanda, width / 2, height / 2);
 
     if (feedbackMessaggio !== ""){
         fill(255, 215, 0);
@@ -290,7 +290,7 @@ function gestisciRisposta(){
 function resetGame(){
     gameState = 'START';
     winner = null;
-    currentQuestion = "";
+    currentQuestionObj = null;
 
     for (let i = 0; i < runners.length; i++){
         runners[i].x = startLineX;

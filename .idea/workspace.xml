@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto timeout prima del reset del gioco">
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunta visualizzazione del messaggio di feedback a schermo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Creata funzione per disegnare la legenda con i relativi colori associati ai giocatori e agli argomenti">
-      <option name="closed" value="true" />
-      <created>1787826084866</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1787826084866</updated>
     </task>
     <task id="LOCAL-00027" summary="Implementata la funzione per disegnare le Legenda">
       <option name="closed" value="true" />
@@ -478,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788012101279</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Aggiunta visualizzazione del messaggio di feedback a schermo">
+      <option name="closed" value="true" />
+      <created>1788012625006</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1788012625006</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata la casella di testo per la risposta, aggiunta al `div` del gioco e nascosta" />
     <MESSAGE value="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto" />
     <MESSAGE value="Aggiunto evento per avviare la funzione di gestione delle risposte quando viene cliccato il bottone" />
     <MESSAGE value="Corretto errore per nascondere il bottone: variabile sbagliata" />
@@ -510,6 +509,7 @@
     <MESSAGE value="Aggiunta della verifica della rpesenza di input nel campo di testo" />
     <MESSAGE value="Aggiunto controllo validità risposta" />
     <MESSAGE value="Aggiunto timeout prima del reset del gioco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto timeout prima del reset del gioco" />
+    <MESSAGE value="Aggiunta visualizzazione del messaggio di feedback a schermo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta visualizzazione del messaggio di feedback a schermo" />
   </component>
 </project>
