@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto stile globale della pagina">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificata decorazione canvas p5.js">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,22 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Modificato CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787830059037</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1787830059037</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Creata funzione per avviare il gioco quando viene premuto un tasto">
-      <option name="closed" value="true" />
-      <created>1787830162124</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1787830162124</updated>
     </task>
     <task id="LOCAL-00039" summary="Implementata la gestione dello stato del gioco">
       <option name="closed" value="true" />
@@ -478,15 +462,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788016349489</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Aggiunto stile al container dell'header, a titolo e al sottotitolo">
+      <option name="closed" value="true" />
+      <created>1788016645722</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1788016645723</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Modificata decorazione canvas p5.js">
+      <option name="closed" value="true" />
+      <created>1788016747536</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1788016747536</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Spostato il bottone affianco alla casella di input" />
-    <MESSAGE value="La casella di input e il bottone non devono essere inizializzati a `NULL`" />
     <MESSAGE value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
     <MESSAGE value="Modificata posizione casella di input e aggiunto effetto trasparente" />
     <MESSAGE value="Cambiata posizione del bottone e aggiunti effetti" />
@@ -510,6 +508,8 @@
     <MESSAGE value="Implementati collegamenti ai font OpenSource di Google" />
     <MESSAGE value="Aggiunto `div` per il titolo e il sottotitolo del sito" />
     <MESSAGE value="Aggiunto stile globale della pagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto stile globale della pagina" />
+    <MESSAGE value="Aggiunto stile al container dell'header, a titolo e al sottotitolo" />
+    <MESSAGE value="Modificata decorazione canvas p5.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificata decorazione canvas p5.js" />
   </component>
 </project>
