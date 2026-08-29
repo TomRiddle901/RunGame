@@ -226,7 +226,7 @@ function keyPressed(){
 function extractQuestion(topic){
     let questions = domandeTPSIT[topic];
     let randomIndex = int(random(questions.length));
-    currentQuestion = questions[randomIndex];
+    currentQuestionObj = questions[randomIndex];
 }
 
 // Funzione per visualizzare la domanda sullo schermo
