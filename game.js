@@ -36,7 +36,6 @@ const domandeTPSIT = {
         "Cosa sono gli interrupt?"
     ]
 }
-
 let currentQuestion = "";
 
 // Funzione di setup
@@ -50,6 +49,11 @@ function setup(){
     // Imposta la modalità di disegno al centro del canvas
     rectMode(CENTER);
     textAlign(CENTER, CENTER);
+
+    // Casella di testo per la risposta
+    inputRisposta = createInput('');
+    inputRisposta.parent('game-container');
+    inputRisposta.hide(); // Nasconde la casella ti testo
 }
 
 function draw(){
