@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunti ID al bottone e alla casella di testo per il CSS">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,22 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Aggiunta ultima modifica al CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787822645237</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1787822645237</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Impostate funzioni draw, e drawTrack()">
-      <option name="closed" value="true" />
-      <created>1787822825407</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1787822825407</updated>
     </task>
     <task id="LOCAL-00011" summary="Creata funzione drawTrack() che disegna le corsie della pista">
       <option name="closed" value="true" />
@@ -478,15 +462,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788008507390</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Spostata la casella di input al di sotto della domanda">
+      <option name="closed" value="true" />
+      <created>1788008652056</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1788008652056</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS">
+      <option name="closed" value="true" />
+      <created>1788008742799</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1788008742799</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elemente" />
-    <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
     <MESSAGE value="Modificato il CHANGELOG.md" />
     <MESSAGE value="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco" />
     <MESSAGE value="Creata la funzione per far muovere i personaggi ad una velocità random" />
@@ -510,6 +508,8 @@
     <MESSAGE value="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)" />
     <MESSAGE value="Creata funzione per riavviare il gioco" />
     <MESSAGE value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti ID al bottone e alla casella di testo per il CSS" />
+    <MESSAGE value="Spostata la casella di input al di sotto della domanda" />
+    <MESSAGE value="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti parametri CSS al container del gioco per spostare eventuali elementi con il CSS" />
   </component>
 </project>

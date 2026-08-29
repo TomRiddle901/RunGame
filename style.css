@@ -16,3 +16,22 @@
     outline: none;
     z-index: 10;
 }
+
+/* Bottone di invio risposta */
+#btn-invia{
+    position: absolute;
+    top: 285px;
+    left: 505px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2A9D8F;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#btn-invia:hover{
+    background-color: #218377;
+}
