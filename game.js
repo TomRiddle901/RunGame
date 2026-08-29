@@ -58,10 +58,10 @@ function setup(){
     // Bottone di invio della risposta
     btnInvia = createButton('Invia Risposta');
     btnInvia.parent('game-container');
-    inputRisposta.hide(); // Bottone di invio risposta nascosto
+    btnInvia.hide(); // Bottone di invio risposta nascosto
 
     // Avvia la funzione per gestire la risposta quando viene premuto il bottone
-    btnInvia.mousePressed(gestisciRisposta);
+    //btnInvia.mousePressed(gestisciRisposta);
 }
 
 function draw(){
