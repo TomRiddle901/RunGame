@@ -45,3 +45,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 # [0.4.0] - 28/08/2026
 - Aggiunto controllo se la risposta è corretta o sbagliata
+
+# [1.0.0] - 28/08/2026
+- Migliorata la grafica del sito
+- Migliorata la grafica del gioco

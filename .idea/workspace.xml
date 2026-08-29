@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Modificata decorazione al bottone con aggiunta di animazioni">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Aggiornato CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787996757246</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1787996757246</updated>
     </task>
     <task id="LOCAL-00043" summary="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md">
       <option name="closed" value="true" />
@@ -478,14 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788017232654</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco">
+      <option name="closed" value="true" />
+      <created>1788017625359</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1788017625359</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cambiata posizione del bottone e aggiunti effetti" />
     <MESSAGE value="Non doveva essere commentata questo event listener importante" />
     <MESSAGE value="Non serve il `;` quando chiamo una funzione....." />
     <MESSAGE value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
@@ -510,6 +510,7 @@
     <MESSAGE value="Modificata decorazione canvas p5.js" />
     <MESSAGE value="Modificato lo stile della casella di testo" />
     <MESSAGE value="Modificata decorazione al bottone con aggiunta di animazioni" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificata decorazione al bottone con aggiunta di animazioni" />
+    <MESSAGE value="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco" />
   </component>
 </project>
