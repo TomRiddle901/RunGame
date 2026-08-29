@@ -1,3 +1,9 @@
+/* Contenitore del gioco */
+#game-container{
+    position: relative;
+    display: inline-block;
+}
+
 /* Casella di testo */
 #input-risposta{
     position: absolute;
