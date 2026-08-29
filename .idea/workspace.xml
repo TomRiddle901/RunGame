@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creato file README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiornato file README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,22 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo">
-      <option name="closed" value="true" />
-      <created>1787997422403</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1787997422403</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali">
-      <option name="closed" value="true" />
-      <created>1787997795557</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1787997795557</updated>
     </task>
     <task id="LOCAL-00048" summary="Aggiunte variabili globali per il testo in input e il bottone per inviare la risposta">
       <option name="closed" value="true" />
@@ -479,15 +460,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788018036772</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Creata la documentazione">
+      <option name="closed" value="true" />
+      <created>1788019101955</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1788019101955</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Aggiornato file README.md">
+      <option name="closed" value="true" />
+      <created>1788019345835</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1788019345836</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
-    <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Aggiunte keywords in modo che si possa comprendere se la risposta è giusta/sbagliata" />
     <MESSAGE value="Mancata chiamata alla funzione keyPressed che cambia lo stato del gioco" />
     <MESSAGE value="Cambiato nome alla variabile" />
@@ -511,6 +506,8 @@
     <MESSAGE value="Rimossa stampa di un messaggio su console: non è necessario" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Creato file README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creato file README.md" />
+    <MESSAGE value="Creata la documentazione" />
+    <MESSAGE value="Aggiornato file README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato file README.md" />
   </component>
 </project>
