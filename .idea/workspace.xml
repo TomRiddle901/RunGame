@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,22 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Ho sbagliato a scrivere il nome della variabile">
-      <option name="closed" value="true" />
-      <created>1787826202533</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1787826202533</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Modificata posizione del testo della legenda e della posizione degli elemente">
-      <option name="closed" value="true" />
-      <created>1787826324926</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1787826324926</updated>
     </task>
     <task id="LOCAL-00031" summary="Modificata posizione del testo della legenda e della posizione degli elementi">
       <option name="closed" value="true" />
@@ -476,14 +463,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788013785036</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono">
+      <option name="closed" value="true" />
+      <created>1788013991272</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1788013991273</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono">
+      <option name="closed" value="true" />
+      <created>1788014338599</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1788014338599</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corretto errore per nascondere il bottone: variabile sbagliata" />
     <MESSAGE value="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte" />
     <MESSAGE value="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)" />
     <MESSAGE value="Creata funzione per riavviare il gioco" />
@@ -508,6 +510,7 @@
     <MESSAGE value="Aggiunta visualizzazione del messaggio di feedback a schermo" />
     <MESSAGE value="Corretti errori: anora alcune funzioni avevano la vecchia variabile `currentQuestion`, ora `currentQuestionObj`" />
     <MESSAGE value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
-    <option name="LAST_COMMIT_MESSAGE" value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
+    <MESSAGE value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
   </component>
 </project>
