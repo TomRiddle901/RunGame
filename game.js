@@ -15,6 +15,28 @@ let runners = [ // Array di giocatori
     {id: 4, color: "#DE61F4", topic: "Gestore delle periferiche", x: startLineX, y: 350}
 ];
 
+// Domande per argomento
+const domandeTPSIT = {
+    "CPU Scheduler": [
+        "Quali sono gli stati di un processo?",
+        "Qual'è la differenza tra uno scheduling preemptive e non-preemptive?"
+    ],
+    "Memory Manager": [
+        "Cos'è la memoria virtuale e a cosa serve?",
+        "Qual'è la differenza tra frammentazione esterna e frammentazione interna?"
+    ],
+    "File System": [
+        "Qual'è la funzione di un i-node in un file system Linux?",
+        "Quali sono le diferenze tra allocazione contigua e concatenata?"
+    ],
+    "Gestore delle periferiche": [
+        "A cosa serve il controller delle periferiche?",
+        "Cosa sono gli interrupt?"
+    ]
+}
+
+let currentQuestion = "";
+
 // Funzione di setup
 function setup(){
     // Creazione del canvas

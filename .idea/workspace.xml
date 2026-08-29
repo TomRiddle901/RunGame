@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per avviare il gioco quando viene premuto un tasto">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +23,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TomRiddle901"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TomRiddle901/RunGame.git",
+    "accountId": "b1769922-1b39-4ebb-801b-1d38e487bf2b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3IUY07xXXlWIWQdsOQnuS7cbNx0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,6 +51,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
@@ -377,14 +391,29 @@
       <option name="project" value="LOCAL" />
       <updated>1787830162124</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Implementata la gestione dello stato del gioco">
+      <option name="closed" value="true" />
+      <created>1787830407596</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1787830407596</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Aggiornato CHANGELOG.md">
+      <option name="closed" value="true" />
+      <created>1787830470415</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1787830470415</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata funzione drawTrack() che disegna le corsie della pista" />
     <MESSAGE value="Aggiunto disegno della linea di pertanza nella funzione drawTrack()" />
     <MESSAGE value="Cambiato metodo di inserimento del canvas all'interno dell'HTML. Il canvas veniva creato fuori dal div" />
     <MESSAGE value="Aggiunta linea di traguardo e accorciata linghezza della linea di partenza" />
@@ -403,12 +432,13 @@
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elemente" />
     <MESSAGE value="Modificata posizione del testo della legenda e della posizione degli elementi" />
     <MESSAGE value="Modificato il CHANGELOG.md" />
-    <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunte impostazioni all'area del gioco e le impostazioni dello stato del gioco" />
     <MESSAGE value="Creata la funzione per far muovere i personaggi ad una velocità random" />
     <MESSAGE value="Rimosse impostazioni area di gioco perché calcolo fine corsa aggiunto direttamente nella condizione" />
     <MESSAGE value="Modificato CHANGELOG.md" />
     <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
+    <MESSAGE value="Implementata la gestione dello stato del gioco" />
+    <MESSAGE value="Aggiornato CHANGELOG.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md" />
   </component>
 </project>
