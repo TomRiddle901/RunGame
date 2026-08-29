@@ -2,9 +2,11 @@
 let canvasWidth = 900;
 let canvasHeight = 500;
 
-// Impostazioni stato del gioco
+// Impostazioni stato del gioco e variabili globali
 let gameState = 'START'; // Stato del gioco: 'START', 'RACING', FINISH'
 let winner = null;
+let inputRisposta = null; // Testo in input risposta domande
+let btnInvia = null; // Bottone per inviare la risposta
 
 // Giocatori
 let startLineX = 70; // Posizione di partenza

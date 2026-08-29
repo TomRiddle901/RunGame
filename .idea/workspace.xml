@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo">
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -454,14 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1787997422403</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali">
+      <option name="closed" value="true" />
+      <created>1787997795557</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1787997795557</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata la funzione per disegnare i giocatori" />
     <MESSAGE value="Implementata la funzione per disegnare i giocatori" />
     <MESSAGE value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
     <MESSAGE value="Risolto l'errore: mancava l'indice!" />
@@ -486,6 +491,7 @@
     <MESSAGE value="Implementata funzione estrazione domande" />
     <MESSAGE value="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md" />
     <MESSAGE value="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo" />
+    <MESSAGE value="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali" />
   </component>
 </project>
