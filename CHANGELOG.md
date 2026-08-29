@@ -36,3 +36,10 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 - Aggiunto un array di domande per argomento *(2 ad argomento)*
 - Aggiunto sistema di estrazione delle domande randomico
 - Aggiunto sistema di visualizzazione delle domande
+
+# [0.3.5] - 28/08/2026
+- Aggiunto campo di inserimento risposta
+- Aggiunto bottone per invio risposta
+- Aggiunto reset del gioco dopo che si manda una risposta
+- Modificato stile e posizione campo di input con CSS
+- Modificato stile e posizione del bottone con CSS

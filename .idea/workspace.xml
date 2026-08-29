@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Cambiata posizione del bottone e aggiunti effetti" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,30 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Changelog spostato al di fuori della cartella dell'IDE e rimozione dei bordi dei quadrati">
-      <option name="closed" value="true" />
-      <created>1787824057599</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1787824057599</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Modificato il CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787824131330</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1787824131330</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia">
-      <option name="closed" value="true" />
-      <created>1787824707813</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1787824707813</updated>
     </task>
     <task id="LOCAL-00019" summary="Creata la funzione per disegnare i giocatori">
       <option name="closed" value="true" />
@@ -476,16 +454,37 @@
       <option name="project" value="LOCAL" />
       <updated>1788010378466</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Non doveva essere commentata questo event listener importante">
+      <option name="closed" value="true" />
+      <created>1788010508627</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1788010508628</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Non serve il `;` quando chiamo una funzione.....">
+      <option name="closed" value="true" />
+      <created>1788010586537</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1788010586537</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta">
+      <option name="closed" value="true" />
+      <created>1788010654829</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1788010654829</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creata funzione per avviare il gioco quando viene premuto un tasto" />
-    <MESSAGE value="Implementata la gestione dello stato del gioco" />
-    <MESSAGE value="Creata lista di domande per ogni argomento di TPSIT" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md" />
     <MESSAGE value="Implementata funzione estrazione domande" />
@@ -508,6 +507,9 @@
     <MESSAGE value="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto" />
     <MESSAGE value="Modificata posizione casella di input e aggiunto effetto trasparente" />
     <MESSAGE value="Cambiata posizione del bottone e aggiunti effetti" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiata posizione del bottone e aggiunti effetti" />
+    <MESSAGE value="Non doveva essere commentata questo event listener importante" />
+    <MESSAGE value="Non serve il `;` quando chiamo una funzione....." />
+    <MESSAGE value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore: chiamata di una funzione inesistente, ora chaiama la funzione giusta" />
   </component>
 </project>
