@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Cambiato nome alla variabile">
-      <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto controllo validità risposta" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,22 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Spostati i giocatori nelle rispettive piste">
-      <option name="closed" value="true" />
-      <created>1787825581309</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1787825581309</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Aggiornato CHANGELOG.md">
-      <option name="closed" value="true" />
-      <created>1787825644238</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1787825644238</updated>
     </task>
     <task id="LOCAL-00025" summary="Aggiunto commento per riconoscere l'utilizzo della funzione">
       <option name="closed" value="true" />
@@ -478,15 +460,29 @@
       <option name="project" value="LOCAL" />
       <updated>1788011627435</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Aggiunta della verifica della rpesenza di input nel campo di testo">
+      <option name="closed" value="true" />
+      <created>1788011756758</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1788011756758</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Aggiunto controllo validità risposta">
+      <option name="closed" value="true" />
+      <created>1788012022765</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1788012022765</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo" />
-    <MESSAGE value="Aggiustata posizione della domanda e corretto errore del random: restituiva numeri con i decimali ma erano richesti numeri senza decimali" />
     <MESSAGE value="Aggiunte variabili globali per il testo in input e il bottone per inviare la risposta" />
     <MESSAGE value="Creata la casella di testo per la risposta, aggiunta al `div` del gioco e nascosta" />
     <MESSAGE value="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto" />
@@ -510,6 +506,8 @@
     <MESSAGE value="Aggiunte keywords in modo che si possa comprendere se la risposta è giusta/sbagliata" />
     <MESSAGE value="Mancata chiamata alla funzione keyPressed che cambia lo stato del gioco" />
     <MESSAGE value="Cambiato nome alla variabile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiato nome alla variabile" />
+    <MESSAGE value="Aggiunta della verifica della rpesenza di input nel campo di testo" />
+    <MESSAGE value="Aggiunto controllo validità risposta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto controllo validità risposta" />
   </component>
 </project>

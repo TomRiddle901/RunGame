@@ -273,8 +273,11 @@ function gestisciRisposta(){
     inputRisposta.hide();
     btnInvia.hide();
 
-    // Riavvia il gioco
-    resetGame()
+    // Visualizzazione del messaggio prima del riavvio del gioco
+    setTimeout(() => {
+        feedbackMessaggio = "";
+        resetGame();
+    }, 2500)
 }
 
 // Funzione per riavviare il goco
