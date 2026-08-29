@@ -61,7 +61,7 @@ function setup(){
     btnInvia.hide(); // Bottone di invio risposta nascosto
 
     // Avvia la funzione per gestire la risposta quando viene premuto il bottone
-    btnInvia.mousePressed(gestisciRisposta);
+    //btnInvia.mousePressed(gestisciRisposta);
 }
 
 function draw(){
