@@ -176,7 +176,7 @@ function keyPressed(){
 // Funzione per estrarre le domande di un argomento di modo randomico
 function extractQuestion(topic){
     let questions = domandeTPSIT[topic];
-    let randomIndex = random(questions.length);
+    let randomIndex = int(random(questions.length));
     currentQuestion = questions[randomIndex];
 }
 
@@ -184,7 +184,7 @@ function extractQuestion(topic){
 function drawQuestion(){
     // Sfondo leggermente trasparente
     fill(0, 0, 0, 220);
-    rect(width / 2, height / 2, width - 100, 100, 10);
+    rect(width / 2, height / 2, width - 100, 150, 10);
 
     // Titolo del vincitore
     fill(winner.color);

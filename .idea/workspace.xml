@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo">
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -446,14 +446,21 @@
       <option name="project" value="LOCAL" />
       <updated>1787997367924</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo">
+      <option name="closed" value="true" />
+      <created>1787997422403</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1787997422403</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creato l'array di giocatori con: colore, argomento di TPSIT, posizione x dove iniziare e posizione y per la corsia" />
     <MESSAGE value="Creata la funzione per disegnare i giocatori" />
     <MESSAGE value="Implementata la funzione per disegnare i giocatori" />
     <MESSAGE value="Cambiato formato del colore, p5.js non accettava il tipo di oggetto restituito quidi ora restituisce una stringa dove il colore è in formato HTML" />
@@ -478,6 +485,7 @@
     <MESSAGE value="Aggiunta funzione per estrarre le domande dalla lista in modo randomico e aggiornato CHANGELOG.md" />
     <MESSAGE value="Implementata funzione estrazione domande" />
     <MESSAGE value="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per visualizzare concorrente vincitore, argomento e domanda sullo schermo.&#10;Aggiornato CHANGELOG.md" />
+    <MESSAGE value="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rimossa visualizzazione a schermo del vincitore ed implementata funzione per visualizzare le domande sullo schermo" />
   </component>
 </project>
