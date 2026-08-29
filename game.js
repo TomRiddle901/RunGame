@@ -61,6 +61,7 @@ const domandeTPSIT = {
     ]
 }
 let currentQuestionObj = null;
+let feedbackMessaggio = "";
 
 // Funzione di setup
 function setup(){
@@ -248,8 +249,14 @@ function drawQuestion(){
 
 // Funzione per la gestione delle risposte
 function gestisciRisposta(){
-    let rispostaUtene = inputRisposta.value();
+    let rispostaUtene = inputRisposta.value().toLowerCase().trim();
     console.log("L'utente ha risposto: " + rispostaUtene);
+
+    // Verifica se è presente testo nel campo di input
+    if (rispostaUtene === ""){
+        alert("Inserisci una risposta prima di inviare!");
+        return;
+    }
 
     // Nascodi interfaccia di risposta
     inputRisposta.hide();
