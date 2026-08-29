@@ -231,7 +231,7 @@ function gestisciRisposta(){
     btnInvia.hide();
 
     // Riavvia il gioco
-    restartGame();
+    restartGame()
 }
 
 // Funzione per riavviare il goco
