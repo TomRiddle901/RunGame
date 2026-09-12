@@ -105,6 +105,18 @@
     {
       "domanda": "A cosa serve la tecnologia DMA (Direct Memory Access)?",
       "keywords": ["memoria", "cpu", "trasferimento", "diretto", "bus", "bypassare"]
+    },
+    {
+      "domanda": "Quali sono i 3 tipi principali di BUS di sistema e a cosa servono?",
+      "keywords": ["dati", "indirizzi", "controllo", "bus dati", "bus indirizzi", "bus controllo"]
+    },
+    {
+      "domanda": "Cos'è un Device Driver e qual'è il suo ruolo nel sistema operativo",
+      "keywords": ["software", "interfaccia", "kernel", "traduttore", "comunicazione", "hardware"]
+    },
+    {
+      "domanda": "Cos'è lo Spooling (es. spool di stampa) nella gestione delle periferiche?",
+      "keywords": ["cosa", "buffer", "memoria", "stampa", "lavoro", "asincrono"]
     }
   ]
 }
