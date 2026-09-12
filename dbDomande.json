@@ -71,6 +71,22 @@
     {
       "domanda": "Qual'è la differenza tra un hard link e un soft link?",
       "keywords": ["inode", "puntatore", "percorso", "originale", "riferimento"]
+    },
+    {
+      "domanda": "Quali sono le parti principali che compongono la struttura di un file?",
+      "keywords": ["header", "intestazione", "dati", "payload", "metadati", "estensione"]
+    },
+    {
+      "doamanda": "Quali sono le differenze tra file system come FAT32, NTFS ed ext4?",
+      "keywords": ["journaling", "dimensione", "permessi", "compatibilità", "windows", "linux"]
+    },
+    {
+      "domanda": "Come funziona l'allocazione indicizzata dei file?",
+      "keywords": ["blocco indice", "puntatori", "accesso diretto", "tabella"]
+    },
+    {
+      "domanda": "Qual'è la differenza tra accesso sequenziale e accesso diretto a un file?",
+      "keywords": ["ordine", "posizione", "offset", "casuale", "inizio"]
     }
   ],
   "Gestore delle periferiche": [

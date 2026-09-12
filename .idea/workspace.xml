@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunte altre domande per l'argomento Memory Manager">
       <change beforePath="$PROJECT_DIR$/dbDomande.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbDomande.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,22 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)">
-      <option name="closed" value="true" />
-      <created>1788008014997</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1788008014997</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Creata funzione per riavviare il gioco">
-      <option name="closed" value="true" />
-      <created>1788008194760</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1788008194760</updated>
     </task>
     <task id="LOCAL-00057" summary="Aggiunti ID al bottone e alla casella di testo per il CSS">
       <option name="closed" value="true" />
@@ -479,15 +462,29 @@
       <option name="project" value="LOCAL" />
       <updated>1789209993380</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Aggiunte altre domande per l'argomento CPU Scheduler">
+      <option name="closed" value="true" />
+      <created>1789210731058</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1789210731058</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Aggiunte altre domande per l'argomento Memory Manager">
+      <option name="closed" value="true" />
+      <created>1789210985333</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1789210985333</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corretti errori: anora alcune funzioni avevano la vecchia variabile `currentQuestion`, ora `currentQuestionObj`" />
-    <MESSAGE value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Rimosso posizionamento del campo di input e del bottone dal CSS, verrà utlizzato p5.js per spostare gli elementi" />
     <MESSAGE value="Corretto errore CSS: rimosso `.position` al bottone e al campo di testo che si trovavano dentro la funzione `updateRunners()`, così ora verranno lette le posizioni del CSS e non di `p5.js`" />
@@ -511,6 +508,8 @@
     <MESSAGE value="Aggiunte domande per l'argomento File System" />
     <MESSAGE value="Aggiunte domande sull'argomento del Gestore delle periferiche" />
     <MESSAGE value="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)" />
+    <MESSAGE value="Aggiunte altre domande per l'argomento CPU Scheduler" />
+    <MESSAGE value="Aggiunte altre domande per l'argomento Memory Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunte altre domande per l'argomento Memory Manager" />
   </component>
 </project>
