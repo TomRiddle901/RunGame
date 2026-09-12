@@ -44,5 +44,23 @@
       "domanda": "Qual'è la differenza tra un hard link e un soft link?",
       "keywords": ["inode", "puntatore", "percorso", "originale", "riferimento"]
     }
+  ],
+  "Gestore delle periferiche": [
+    {
+      "domanda": "A cosa serve il controller delle periferiche?",
+      "keywords": ["hardware", "interfaccia", "registro", "comunicazione", "chip", "bus"]
+    },
+    {
+      "domanda": "Cosa sono gli interrupt e a cosa servono?",
+      "keywords": ["segnale", "cpu", "interruzione", "hardware", "priorità", "routine"]
+    },
+    {
+      "domanda": "Cos'è il Polling e qual'è il suo svantaggio?",
+      "keywords": ["ciclo", "attesa", "controllo", "continuo", "spreco", "cpu"]
+    },
+    {
+      "domanda": "A cosa serve la tecnologia DMA (Direct Memory Access)?",
+      "keywords": ["memoria", "cpu", "trasferimento", "diretto", "bus", "bypassare"]
+    }
   ]
 }
