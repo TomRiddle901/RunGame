@@ -16,5 +16,19 @@
       "domanda": "Come funziona l'algoritmo di scheduling Round Robin?",
       "keywords": ["time slice", "coda", "circolare", "tempo", "turno"]
     }
+  ],
+  "Memory Manager": [
+    {
+      "domanda": "Cos'è la memoria virtuale e a cosa serve?",
+      "keywords": ["ram", "disco", "pagine", "estensione", "spazio", "swap", "allocazione"]
+    },
+    {
+      "domanda": "Qual'è la differenza tra frammentazione interna ed esterna?",
+      "keywords": ["blocco", "spazio", "pagine", "segmenti", "inutilizzato", "allocato"]
+    },
+    {
+      "domanda": "Cos'è la paginazione (Paging) nella gestione della memoria?",
+      "keywords": ["cache", "indirizzi", "traduzione", "veloce", "hardware", "tabella"]
+    }
   ]
 }
