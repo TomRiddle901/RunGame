@@ -34,7 +34,7 @@
 .
 |---index.html      # Pagina iniziale dell'applicazione
 |---style.css       # Stile e posizionamento UI
-|---dbDomande.json # Database delle domande del gioco
+|---dbDomande.json  # Database delle domande del gioco
 |---game.js         # Logica di gioco e canvas p5.js
 |---CHANGELOG.md    # Storico delle versioni e modifiche
 |---README.md       # Documentazione del progetto
