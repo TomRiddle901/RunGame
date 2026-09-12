@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunte domande sull'argomento del Gestore delle periferiche" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbDomande.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbDomande.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte">
-      <option name="closed" value="true" />
-      <created>1788006474605</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1788006474605</updated>
     </task>
     <task id="LOCAL-00055" summary="Creata funzione per gestire le risposte dell'utente (per ora stampa su console la risposta dell'utente e nasconde i bottoni e riavvia il gioco)">
       <option name="closed" value="true" />
@@ -476,14 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1789209676172</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)">
+      <option name="closed" value="true" />
+      <created>1789209993380</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1789209993380</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunta visualizzazione del messaggio di feedback a schermo" />
     <MESSAGE value="Corretti errori: anora alcune funzioni avevano la vecchia variabile `currentQuestion`, ora `currentQuestionObj`" />
     <MESSAGE value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
     <MESSAGE value="Migliorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
@@ -508,6 +510,7 @@
     <MESSAGE value="Aggiunte domande per l'argomento Memory Manager" />
     <MESSAGE value="Aggiunte domande per l'argomento File System" />
     <MESSAGE value="Aggiunte domande sull'argomento del Gestore delle periferiche" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunte domande sull'argomento del Gestore delle periferiche" />
+    <MESSAGE value="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rimossa cartella di WebStorm (basta commit e push di workspace.xml)" />
   </component>
 </project>

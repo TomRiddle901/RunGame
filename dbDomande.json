@@ -9,12 +9,28 @@
       "keywords": ["interruzione", "priorità", "rialscio", "velocità", "tempo di attesa", "fcfs", "round robin", "fjs", "srtf", "mlfq"]
     },
     {
-      "domanda": "Cos'è il tempo di turnaround di un processo?",
+      "domanda": "Cos'è il tempo di Turnaround di un processo?",
       "keywords": ["completamento", "sottomissione", "totale", "tempo", "arrivo"]
     },
     {
       "domanda": "Come funziona l'algoritmo di scheduling Round Robin?",
       "keywords": ["time slice", "coda", "circolare", "tempo", "turno"]
+    },
+    {
+      "domanda": "Come funziona lo scheduling FCFS (First-Come, First-Served)?",
+      "keywords": ["coda", "ordine", "arrivo", "fifo", "attesa"]
+    },
+    {
+      "domanda": "Qual'è l'obiettivo dell'algoritmo SJF (Shortest Job First)?",
+      "keywords": ["breve", "durata", "cpu", "burst", "tempo", "minimo"]
+    },
+    {
+      "domanda": "Cos'è il cambio di contesto?",
+      "keywords": ["pcb", "salvataggio", "stato", "registro", "cpu", "ripristino"]
+    },
+    {
+      "domanda": "A cosa serve il PCB (Processo Control Block)?",
+      "keywords": ["struttura", "informazioni", "stato", "pid", "registri", "processo"]
     }
   ],
   "Memory Manager": [
