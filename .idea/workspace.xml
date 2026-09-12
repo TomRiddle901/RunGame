@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunte domande per l'argomento File System">
-      <change beforePath="$PROJECT_DIR$/dbDomande.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbDomande.json" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunte domande sull'argomento del Gestore delle periferiche" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Corretto errore per nascondere il bottone: variabile sbagliata">
-      <option name="closed" value="true" />
-      <created>1788006071959</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1788006071959</updated>
     </task>
     <task id="LOCAL-00054" summary="Aggiunto posizionamento del bottone e del campo di input, aggiunta visione del bottone e del campo di input quando il gioco finisce + pulizia del campo di input da vecchie risposte">
       <option name="closed" value="true" />
@@ -478,14 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1789209349751</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Aggiunte domande sull'argomento del Gestore delle periferiche">
+      <option name="closed" value="true" />
+      <created>1789209676172</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1789209676172</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto timeout prima del reset del gioco" />
     <MESSAGE value="Aggiunta visualizzazione del messaggio di feedback a schermo" />
     <MESSAGE value="Corretti errori: anora alcune funzioni avevano la vecchia variabile `currentQuestion`, ora `currentQuestionObj`" />
     <MESSAGE value="Melgiorata la posizione del campo di input e del bottone: ora non si sovrappongono" />
@@ -510,6 +507,7 @@
     <MESSAGE value="Aggiunte domande sull'argomento CPU Scheduler" />
     <MESSAGE value="Aggiunte domande per l'argomento Memory Manager" />
     <MESSAGE value="Aggiunte domande per l'argomento File System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunte domande per l'argomento File System" />
+    <MESSAGE value="Aggiunte domande sull'argomento del Gestore delle periferiche" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunte domande sull'argomento del Gestore delle periferiche" />
   </component>
 </project>
