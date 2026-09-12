@@ -8,7 +8,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Da implementare
-- File `.json` con un piccolo database di domante e keywords per argomento
 
 ---
 
@@ -49,3 +48,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 # [1.0.0] - 28/08/2026
 - Migliorata la grafica del sito
 - Migliorata la grafica del gioco
+
+# [1.0.1] - 12/09/2026
+- Creato un database `json` di domande
