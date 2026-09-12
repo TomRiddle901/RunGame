@@ -45,6 +45,18 @@
     {
       "domanda": "Cos'è la paginazione (Paging) nella gestione della memoria?",
       "keywords": ["cache", "indirizzi", "traduzione", "veloce", "hardware", "tabella"]
+    },
+    {
+      "domanda": "Cosa sono le strategie di allocazione First-Fit, Best-Fit e Worst-Fit?",
+      "keywords": ["spazio", "blocco", "primo", "migliore", "grande", "adatto", "dimensione"]
+    },
+    {
+      "domanda": "Cos'è la memoria cache e qual'è il suo scopo?",
+      "keywords" : ["sram", "veloce", "cpu", "l1", "l2", "l3", "frequenti"]
+    },
+    {
+      "domadna": "Qual'è la differenza tra paginazione e segmentazione?",
+      "keywords": ["fissa", "variabile", "dimensione", "logica", "pagine", "segmenti"]
     }
   ],
   "File System": [
