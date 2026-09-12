@@ -17,52 +17,32 @@ let runners = [ // Array di giocatori
     {id: 4, color: "#DE61F4", topic: "Gestore delle periferiche", x: startLineX, y: 350}
 ];
 
-// Domande per argomento
-const domandeTPSIT = {
-    "CPU Scheduler": [
-        {
-            domanda: "Quali sono gli stati di un processo?",
-            keywords: ["pronto", "esecuzione", "attesa", "ready", "running", "blocked"]
-        },
-        {
-            domanda: "Qual'è la differenza tra scheduling preemptive e non-preemptive?",
-            keywords: ["interruzione", "priorità", "rilascio"]
-        }
-    ],
-    "Memory Manager": [
-        {
-            domanda: "Cos'è la memoria virtuale e a cosa serve?",
-            keywords: ["ram", "disco", "pagine", "estensione", "spazio"]
-        },
-        {
-            domanda: "Differenza tra frammentazione esterna ed interna?",
-            keywords: ["blocco", "spazio", "pagine", "segmenti", "inutilizzato"]
-        }
-    ],
-    "File System": [
-        {
-            domanda: "Qual'è la funzione di un i-node in Linux?",
-            keywords: ["metadati", "struttura", "pointer", "informazioni", "file"]
-        },
-        {
-            domanda: "Differenze tra allocazione contigua e concatenata?",
-            keywords: ["blocchi", "puntatore", "sequenziale", "frammentazione"]
-        }
-    ],
-    "Gestore delle periferiche": [
-        {
-            domanda: "A cosa serve il controller delle periferiche?",
-            keywords: ["hardware", "interfaccia", "registro", "comunicazione"]
-        },
-        {
-            domanda: "Cosa sono gli interrupt?",
-            keywords: ["segnale", "cpu", "interruzione", "hardware", "priorità"]
-        }
-    ]
-};
+// Struttura dati per le domande
+let domandeTPSIT = {};
+let datiCaricati = false;
 
 let currentQuestionObj = null;
 let feedbackMessaggio = "";
+
+// Funzione per il caricamento delle domande dal json
+function caricaDomande(){
+    fetch("dbDomande.json")
+        .then(function (fileJson){
+            if (!fileJson.ok){
+                console.error("Impossibile caricare il file .json")
+                return;
+            }
+        })
+        .then(function (dati){
+            domandeTPSIT = dati;
+            datiCaricati = true;
+
+            console.log("Dati caricati correttamente")
+        })
+        .catch(function (error){
+            console.error("Impossibile caricare le domande: ", error);
+        });
+}
 
 // Funzione di setup
 function setup(){
