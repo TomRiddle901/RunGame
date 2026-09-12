@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json" />
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,22 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Cambiata posizione del bottone e aggiunti effetti">
-      <option name="closed" value="true" />
-      <created>1788010378466</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1788010378466</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Non doveva essere commentata questo event listener importante">
-      <option name="closed" value="true" />
-      <created>1788010508627</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1788010508628</updated>
     </task>
     <task id="LOCAL-00066" summary="Non serve il `;` quando chiamo una funzione.....">
       <option name="closed" value="true" />
@@ -476,15 +460,29 @@
       <option name="project" value="LOCAL" />
       <updated>1789223409125</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="?">
+      <option name="closed" value="true" />
+      <created>1789223490319</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1789223490319</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Aggiornato CHANGELOG.md e README.md">
+      <option name="closed" value="true" />
+      <created>1789223785120</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1789223785120</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto stile al container dell'header, a titolo e al sottotitolo" />
-    <MESSAGE value="Modificata decorazione canvas p5.js" />
     <MESSAGE value="Modificato lo stile della casella di testo" />
     <MESSAGE value="Modificata decorazione al bottone con aggiunta di animazioni" />
     <MESSAGE value="Migliorata la gramamtica alle domande, migliorata grafica degli oggetti del gioco" />
@@ -508,6 +506,8 @@
     <MESSAGE value="Creata funzione per caricare il database di domande json" />
     <MESSAGE value="Aggiunto controllo caricamento delle domande prima di avviare la gara" />
     <MESSAGE value="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json" />
+    <MESSAGE value="?" />
+    <MESSAGE value="Aggiornato CHANGELOG.md e README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiornato CHANGELOG.md e README.md" />
   </component>
 </project>
