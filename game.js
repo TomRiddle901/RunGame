@@ -3,7 +3,7 @@ let canvasWidth = 900;
 let canvasHeight = 500;
 
 // Impostazioni stato del gioco e variabili globali
-let gameState = 'START'; // Stato del gioco: 'START', 'RACING', FINISH'
+let gameState = 'START'; // Stato del gioco: 'START', 'RACING', 'FINISH'
 let winner = null;
 let inputRisposta; // Testo in input risposta domande
 let btnInvia; // Bottone per inviare la risposta
@@ -29,15 +29,17 @@ function caricaDomande(){
     fetch("dbDomande.json")
         .then(function (fileJson){
             if (!fileJson.ok){
-                console.error("Impossibile caricare il file .json")
+                console.error("Impossibile caricare il file .json");
                 return;
             }
+            return fileJson.json();
         })
         .then(function (dati){
-            domandeTPSIT = dati;
-            datiCaricati = true;
-
-            console.log("Dati caricati correttamente")
+            if (dati) {
+                domandeTPSIT = dati;
+                datiCaricati = true;
+                console.log("Dati caricati correttamente");
+            }
         })
         .catch(function (error){
             console.error("Impossibile caricare le domande: ", error);
@@ -94,17 +96,18 @@ function draw(){
         textStyle(BOLD);
         textStyle(NORMAL);
 
-        // Verica la presenza dei dati json prima di avviare il gioco
+        // Verifica la presenza dei dati json prima di avviare il gioco
         if (datiCaricati){
             fill(255);
             text("PREMI SPAZIO PER INIZIARE LA GARA", width / 2, 20);
-        }else{
+        } else {
             fill(255, 165, 0);
-            text("CARICAMENTO DELLE DOMANDE IN CORSO", width / 2,20);
+            text("CARICAMENTO DELLE DOMANDE IN CORSO...", width / 2, 20);
         }
-    }else if (gameState === 'RACING'){
+        textStyle(NORMAL);
+    } else if (gameState === 'RACING'){
         updateRunners();
-    }else if (gameState === 'FINISH'){
+    } else if (gameState === 'FINISH'){
         drawQuestion();
     }
 }
@@ -226,18 +229,25 @@ function updateRunners(){
     }
 }
 
-// Funzione per avviare il gioco alla pressione di un tasto della tastiera
+// Avvio il gioco solo se i dati sono già stati caricati
 function keyPressed(){
-    if (key === ' ' && gameState === 'START'){
+    if (key === ' ' && gameState === 'START' && datiCaricati){
         gameState = 'RACING';
     }
 }
 
-// Funzione per estrarre le domande di un argomento di modo randomico
+// Funzione per estrarre le domande di un argomento in modo randomico
 function extractQuestion(topic){
-    let questions = domandeTPSIT[topic];
-    let randomIndex = int(random(questions.length));
-    currentQuestionObj = questions[randomIndex];
+    if (domandeTPSIT && domandeTPSIT[topic] && domandeTPSIT[topic].length > 0) {
+        let questions = domandeTPSIT[topic];
+        let randomIndex = int(random(questions.length));
+        currentQuestionObj = questions[randomIndex];
+    } else {
+        currentQuestionObj = {
+            domanda: "Errore: domande non trovate per questo argomento.",
+            keywords: []
+        };
+    }
 }
 
 // Modale retro-tech con bordo luminoso
@@ -259,7 +269,7 @@ function drawQuestion(){
     fill(230);
     textSize(14);
     textStyle(NORMAL);
-    text(currentQuestionObj.domanda, width / 2, height / 2 - 15);
+    text(currentQuestionObj ? currentQuestionObj.domanda : "", width / 2, height / 2 - 15);
 
     // Messaggio Esito
     if (feedbackMessaggio !== ""){
