@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Aggiunto controllo caricamento delle domande prima di avviare la gara">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,14 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Modificata posizione casella di input e aggiunto effetto trasparente">
-      <option name="closed" value="true" />
-      <created>1788010024962</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1788010024962</updated>
     </task>
     <task id="LOCAL-00064" summary="Cambiata posizione del bottone e aggiunti effetti">
       <option name="closed" value="true" />
@@ -478,14 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1789217997538</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json">
+      <option name="closed" value="true" />
+      <created>1789223409125</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1789223409125</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto stile globale della pagina" />
     <MESSAGE value="Aggiunto stile al container dell'header, a titolo e al sottotitolo" />
     <MESSAGE value="Modificata decorazione canvas p5.js" />
     <MESSAGE value="Modificato lo stile della casella di testo" />
@@ -510,6 +507,7 @@
     <MESSAGE value="Corretti typo errors" />
     <MESSAGE value="Creata funzione per caricare il database di domande json" />
     <MESSAGE value="Aggiunto controllo caricamento delle domande prima di avviare la gara" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto controllo caricamento delle domande prima di avviare la gara" />
+    <MESSAGE value="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corretto errore nella lettura del file json: la risposta non veniva trasformata in json. Corretto controllo caricamento dati json: se si premeva spazio mentre i dati si caricavano o si presentavano errori, la gara partiva lo stesso e poi si bloccava. Aggiornati i testi: ora leggono le domande dal file json" />
   </component>
 </project>
