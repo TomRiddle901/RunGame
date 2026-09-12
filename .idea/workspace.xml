@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creato database per le domande">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbDomande.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbDomande.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Creata la casella di testo per la risposta, aggiunta al `div` del gioco e nascosta">
-      <option name="closed" value="true" />
-      <created>1787998492263</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1787998492263</updated>
     </task>
     <task id="LOCAL-00050" summary="Creato bottone per inviare la risposta, aggiunto al `div` del gioco e nascosto">
       <option name="closed" value="true" />
@@ -478,14 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788019517536</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Creato database per le domande">
+      <option name="closed" value="true" />
+      <created>1789207923537</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1789207923539</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mancata chiamata alla funzione keyPressed che cambia lo stato del gioco" />
     <MESSAGE value="Cambiato nome alla variabile" />
     <MESSAGE value="Aggiunta della verifica della rpesenza di input nel campo di testo" />
     <MESSAGE value="Aggiunto controllo validità risposta" />
@@ -510,6 +510,7 @@
     <MESSAGE value="Creata la documentazione" />
     <MESSAGE value="Aggiornato file README.md" />
     <MESSAGE value="WebStorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebStorm" />
+    <MESSAGE value="Creato database per le domande" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato database per le domande" />
   </component>
 </project>
