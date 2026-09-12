@@ -30,5 +30,19 @@
       "domanda": "Cos'è la paginazione (Paging) nella gestione della memoria?",
       "keywords": ["cache", "indirizzi", "traduzione", "veloce", "hardware", "tabella"]
     }
+  ],
+  "File System": [
+    {
+      "domanda": "Qual'è la funzione di un i-node in un file system Linux?",
+      "keywords": ["metadati", "struttura", "pointer", "puntatore", "informazioni", "file", "permessi", "dimensione"]
+    },
+    {
+      "domanda": "Quali sono le differenze tra allocazione contigua e concatenata?",
+      "keywords": ["blocchi", "puntatore", "sequenziale", "frammentazione", "accesso"]
+    },
+    {
+      "domanda": "Qual'è la differenza tra un hard link e un soft link?",
+      "keywords": ["inode", "puntatore", "percorso", "originale", "riferimento"]
+    }
   ]
 }
