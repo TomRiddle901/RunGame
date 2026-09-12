@@ -25,6 +25,7 @@
 * **JavaScript**: Logica di gioco, gestione degli stati, estrazione delle domande e verifica delle risposte.
 * **p5.js**: Rendering grafico della pista, animazione dei veicoli, rilevamento collisioni e interfaccia di gioco.
 * **Google Fonts**: Tipografia dell'interfaccia.
+* **Google Gemini**: Generazione di qualche domanda, aiuto nel trovare le keywords, aiuto nella correzione di errori e bug, file CSS (non sono bravo a fare la grafica).
 
 ---
 
@@ -45,4 +46,4 @@
 * GitHub Pages website: https://tomriddle901.github.io/RunGame/
 ### Opzione 2
 1. Clona o scarica il repository: `git clone https://github.com/TomRiddle901/RunGame.git` o (https://github.com/TomRiddle901/RunGame.git)
-2. Apri il file `index.html` in un qualsiasi browser web ***moderno e aggiornato*** (oppure utilizza un server locale come l'estensione Live Server di VSCode o utilizzando WebStorm).
+2. Apri il file `index.html` in un qualsiasi browser web ***moderno e aggiornato*** (potrebbe non funzionare nel caricamento del file json), oppure utilizza un server locale come l'estensione Live Server di VSCode o utilizzando WebStorm.

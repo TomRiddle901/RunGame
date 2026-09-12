@@ -51,3 +51,8 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 # [1.0.1] - 12/09/2026
 - Creato un database `json` di domande
+
+# [1.1.0] - 12/09/2026
+- Le domande vengono estratte in modo random dal database di domande
+- Aggiunto controllo caricamento dati dal file json
+- I messaggi di testo vengono letti dal file json
