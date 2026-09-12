@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Corretti typo errors">
+    <list default="true" id="3b702a2a-ef1c-4637-ab0f-28b07d9aae95" name="Changes" comment="Creata funzione per caricare il database di domande json">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787820393010</updated>
-    </task>
-    <task id="LOCAL-00061" summary="La casella di input e il bottone non devono essere inizializzati a `NULL`">
-      <option name="closed" value="true" />
-      <created>1788009254342</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1788009254342</updated>
     </task>
     <task id="LOCAL-00062" summary="Corretto errore: l'id del bottone va inserito dopo la creazione dell'oggetto">
       <option name="closed" value="true" />
@@ -478,14 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1789216898432</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Creata funzione per caricare il database di domande json">
+      <option name="closed" value="true" />
+      <created>1789217160845</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1789217160846</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementati collegamenti ai font OpenSource di Google" />
     <MESSAGE value="Aggiunto `div` per il titolo e il sottotitolo del sito" />
     <MESSAGE value="Aggiunto stile globale della pagina" />
     <MESSAGE value="Aggiunto stile al container dell'header, a titolo e al sottotitolo" />
@@ -510,6 +510,7 @@
     <MESSAGE value="Aggiunte altre domande per l'argomento Gestore delle periferiche" />
     <MESSAGE value="Aggiornato CHANGELOG.md" />
     <MESSAGE value="Corretti typo errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corretti typo errors" />
+    <MESSAGE value="Creata funzione per caricare il database di domande json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata funzione per caricare il database di domande json" />
   </component>
 </project>

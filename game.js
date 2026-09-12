@@ -56,6 +56,9 @@ function setup(){
     rectMode(CENTER);
     textAlign(CENTER, CENTER);
 
+    // Carica le domande
+    caricaDomande();
+
     // Casella di testo
     inputRisposta = createInput('');
     inputRisposta.parent('game-container');
@@ -86,11 +89,19 @@ function draw(){
 
     // Gestione dello stato del gioco
     if (gameState === 'START'){
-        fill(255);
+        // Opzioni testo
         textSize(16);
         textStyle(BOLD);
-        text("PREMI SPAZIO PER INIZIARE LA GARA", width / 2, 20);
         textStyle(NORMAL);
+
+        // Verica la presenza dei dati json prima di avviare il gioco
+        if (datiCaricati){
+            fill(255);
+            text("PREMI SPAZIO PER INIZIARE LA GARA", width / 2, 20);
+        }else{
+            fill(255, 165, 0);
+            text("CARICAMENTO DELLE DOMANDE IN CORSO", width / 2,20);
+        }
     }else if (gameState === 'RACING'){
         updateRunners();
     }else if (gameState === 'FINISH'){
